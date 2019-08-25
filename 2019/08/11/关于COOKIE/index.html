@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="前端安全,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="且迷这风浪 永远二十赶朝暮">
-<meta name="keywords" content="Security,Cyber">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Startr4ck&#39;s  blog">
-<meta property="og:url" content="https://Stratr4ck.github.io/index.html">
+<meta name="description" content="前言　　刚才在牛客网当中看到面经，突然想起了COOKIE的保护方法，索性就记录在这里   关于COOKIE的基本概念就不进行介绍  　 下面说下关于COOKIE的保护方式以及常见的绕过的方式   HSTSHSTS的主要作用是保证HTTPS进行严格传输，使得数据的传输必须要经过https这种传输方式，而不能使用http进行传输   securesecure 属性是对cookie进行保护，使得cook">
+<meta name="keywords" content="前端安全">
+<meta property="og:type" content="article">
+<meta property="og:title" content="COOKIE安全保护">
+<meta property="og:url" content="https://Stratr4ck.github.io/2019/08/11/关于COOKIE/index.html">
 <meta property="og:site_name" content="Startr4ck&#39;s  blog">
-<meta property="og:description" content="且迷这风浪 永远二十赶朝暮">
+<meta property="og:description" content="前言　　刚才在牛客网当中看到面经，突然想起了COOKIE的保护方法，索性就记录在这里   关于COOKIE的基本概念就不进行介绍  　 下面说下关于COOKIE的保护方式以及常见的绕过的方式   HSTSHSTS的主要作用是保证HTTPS进行严格传输，使得数据的传输必须要经过https这种传输方式，而不能使用http进行传输   securesecure 属性是对cookie进行保护，使得cook">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-08-25T13:05:39.280Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Startr4ck&#39;s  blog">
-<meta name="twitter:description" content="且迷这风浪 永远二十赶朝暮">
+<meta name="twitter:title" content="COOKIE安全保护">
+<meta name="twitter:description" content="前言　　刚才在牛客网当中看到面经，突然想起了COOKIE的保护方法，索性就记录在这里   关于COOKIE的基本概念就不进行介绍  　 下面说下关于COOKIE的保护方式以及常见的绕过的方式   HSTSHSTS的主要作用是保证HTTPS进行严格传输，使得数据的传输必须要经过https这种传输方式，而不能使用http进行传输   securesecure 属性是对cookie进行保护，使得cook">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://Stratr4ck.github.io/">
+  <link rel="canonical" href="https://Stratr4ck.github.io/2019/08/11/关于COOKIE/">
 
 
 
 
 
-  <title>Startr4ck's  blog</title>
+  <title>COOKIE安全保护 | Startr4ck's  blog</title>
   
 
 
@@ -144,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -248,9 +248,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -280,9 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/08/11/关于COOKIE/" itemprop="url">COOKIE安全保护</a></h1>
+          <h1 class="post-title" itemprop="name headline">COOKIE安全保护</h1>
         
 
         <div class="post-meta">
@@ -314,6 +312,11 @@
           
 
           
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
 
           
 
@@ -332,9 +335,7 @@
       
 
       
-        
-          
-            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>　　刚才在牛客网当中看到面经，突然想起了COOKIE的保护方法，索性就记录在这里  </p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>　　刚才在牛客网当中看到面经，突然想起了COOKIE的保护方法，索性就记录在这里  </p>
 <p>关于COOKIE的基本概念就不进行介绍  　</p>
 <p>下面说下关于COOKIE的保护方式以及常见的绕过的方式  </p>
 <h4 id="HSTS"><a href="#HSTS" class="headerlink" title="HSTS"></a>HSTS</h4><p>HSTS的主要作用是保证HTTPS进行严格传输，使得数据的传输必须要经过https这种传输方式，而不能使用http进行传输  </p>
@@ -370,8 +371,6 @@
 <p><strong>如何进行配置HSTS</strong></p>
 <p>在配置文件当中加上 add_header Strict-Transport-Security</p>
 
-          
-        
       
     </div>
     
@@ -383,137 +382,57 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Statr4ck
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://Stratr4ck.github.io/2019/08/11/关于COOKIE/" title="COOKIE安全保护">https://Stratr4ck.github.io/2019/08/11/关于COOKIE/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://Stratr4ck.github.io/2019/08/11/前言/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Statr4ck">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/chan2.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Startr4ck's  blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/08/11/前言/" itemprop="url">前言</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-11T13:51:51+08:00">
-                2019-08-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/前端安全/" rel="tag"># 前端安全</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>​    本博客所涉及的内容用于安全研究，切勿用于非法用途，诸位切勿以身试法，博主不承担任何责任。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/08/11/前言/" rel="next" title="前言">
+                <i class="fa fa-chevron-left"></i> 前言
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -523,10 +442,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -534,6 +454,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -554,8 +478,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -608,6 +541,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#HSTS"><span class="nav-number">1.0.1.</span> <span class="nav-text">HSTS</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#secure"><span class="nav-number">1.0.2.</span> <span class="nav-text">secure</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Httponly"><span class="nav-number">1.0.3.</span> <span class="nav-text">Httponly</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -770,6 +719,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
