@@ -1,0 +1,25 @@
+site_name: Startr4ck安全所学
+site_url: https://startr4ck.top
+
+
+
+
+theme:
+  name: material
+
+
+  features:
+  #  - navigation.sections
+    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+
+nav :
+    - Home: index.md 
+
+    - About: csv注入.md
+    - WEB安全:
+        SQL注入:
+          - 布尔注入: SQL注入/mysql布尔注入.md
