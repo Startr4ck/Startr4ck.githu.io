@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87waf/">
+        <link rel="canonical" href="https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC1/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
     
     
       
-        <title>绕过waf - Startr4ck安全所学</title>
+        <title>DC1 - Startr4ck安全所学</title>
       
     
     
@@ -62,11 +62,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#waf" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -97,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              绕过waf
+              DC1
             
           </span>
         </div>
@@ -192,7 +187,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../mysql%E5%B8%83%E5%B0%94%E6%B3%A8%E5%85%A5/" class="md-tabs__link">
+      <a href="../../SQL%E6%B3%A8%E5%85%A5/mysql%E5%B8%83%E5%B0%94%E6%B3%A8%E5%85%A5/" class="md-tabs__link">
         WEB安全
       </a>
     </li>
@@ -410,7 +405,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mysql%E5%B8%83%E5%B0%94%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../SQL%E6%B3%A8%E5%85%A5/mysql%E5%B8%83%E5%B0%94%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         布尔注入
       </a>
     </li>
@@ -424,7 +419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../SQL%E6%B3%A8%E5%85%A5/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         宽字节注入
       </a>
     </li>
@@ -438,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
+      <a href="../../SQL%E6%B3%A8%E5%85%A5/%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
         盲注
       </a>
     </li>
@@ -499,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../SQL%E6%B3%A8%E5%85%A5/NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         NOsql注入
       </a>
     </li>
@@ -546,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../PDO/" class="md-nav__link">
+      <a href="../../SQL%E6%B3%A8%E5%85%A5/PDO/" class="md-nav__link">
         PDO
       </a>
     </li>
@@ -790,113 +785,15 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#waf" class="md-nav__link">
-    waf原理
-  </a>
-  
-    <nav class="md-nav" aria-label="waf原理">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    防御
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                  <h1>绕过waf</h1>
+                  <h1>DC1</h1>
                 
-                <p>1、waf的类型 </p>
-<p>2、waf的原理 </p>
-<p>3、如何绕过waf</p>
-<p>https://www.freebuf.com/articles/web/226000.html</p>
-<p>sql注入waf的绕过方式 </p>
-<p>https://www.freebuf.com/vuls/251028.html</p>
-<h2 id="waf">waf原理</h2>
-<p>waf的全名为 web 防火墙，就是保护web应用的。 </p>
-<p>https://www.freebuf.com/articles/web/224473.html</p>
-<p>从 文件传输和错误的输入输出过滤进行 </p>
-<p>基本方式是获取用户到服务侧的流量，方式主要有三种。</p>
-<p>1、反向代理，读数据进行净化和阻拦部署在服务器之前 nginx openresty都是实现方式。</p>
-<p>2、硬件waf，部署位置和反向代理类似，但是获取的是网络层的流量解析为http的流量之后传输给之后的服务器。 </p>
-<p>3、网卡流量，读取网卡中的流量并交给服务器数据。</p>
-<p>4、混合云waf，cloudflare </p>
-<p>5、软件waf 安全狗       </p>
-<p><strong>原理分类</strong></p>
-<p>基于特征</p>
-<p>基于行为 </p>
-<p>​                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </p>
-<p>绕过waf的思路 </p>
-<p><strong>使用不常规的字符</strong></p>
-<p>sql注入 https://www.freebuf.com/vuls/251028.html</p>
-<p>内联注释 </p>
-<p>重写关键字 </p>
-<p>大小写混写关键字 </p>
-<p>编码 十六进制编码 url编码  </p>
-<p><strong>使用不常规的方式</strong></p>
-<p>上传一个webshell，很有可能被杀，但是如果上传一个下载其他webshell的文件被杀的概率就很小。 </p>
-<p>上传一个包含的php jsp 脚本，上传一个文本文件进行包含 </p>
-<p><strong>删除特征</strong></p>
-<p>删除报文当中的某些属性 </p>
-<p>waf 基于功能分为特殊字符和文件上传两种方式 </p>
-<p><strong>特殊字符</strong>的方式  </p>
-<p>大小写绕过，替换关键字 </p>
-<p>空格  注释进行绕过 /**/</p>
-<p>内联注释 </p>
-<pre><code>/*!uncion*/ 
-/*!select*/
-</code></pre>
-<p>十六进制编码</p>
-<p>url编码  </p>
-<p>关键字 </p>
-<p>注释符绕过  </p>
-<p>多参数进行传递报文 ，后面不会进行过滤  openresty </p>
-<p>https://www.freebuf.com/articles/web/247655.html</p>
-<p>mysql 注入  </p>
-<p>/**/ 替换 空格进行注入 </p>
-<p>/!/ 内联注释，中间部分继续执行  </p>
-<p>chr 函数变换关键字 </p>
-<p>base_convert进行转换  </p>
-<p>分块传输 绕waf </p>
-<p>更改charset</p>
-<p>https://www.freebuf.com/articles/web/259027.html</p>
-<h3 id="_1">防御</h3>
-<p>设置web容器无法解析目录中的文件，即使上传也不会有问题 </p>
+                
                 
               
               
