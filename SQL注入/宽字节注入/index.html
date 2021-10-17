@@ -188,18 +188,11 @@
   
   
   
-    
-
-  
-  
-  
     <li class="md-tabs__item">
-      <a href="../mysql%E5%B8%83%E5%B0%94%E6%B3%A8%E5%85%A5/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link md-tabs__link--active">
         WEB安全
       </a>
     </li>
-  
-
   
 
   
@@ -410,12 +403,54 @@
       
       
         <label class="md-nav__link" for="__nav_3_1">
+          注入
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="注入" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          注入
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+        注入
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
           SQL注入
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="SQL注入" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_1">
+      <nav class="md-nav" aria-label="SQL注入" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
           <span class="md-nav__icon md-icon"></span>
           SQL注入
         </label>
@@ -432,22 +467,50 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2_1" type="checkbox" id="__nav_3_1_2_1" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_1">
+        <label class="md-nav__link" for="__nav_3_1_2_1">
           注入分类
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="注入分类" data-md-level="3">
-        <label class="md-nav__title" for="__nav_3_1_1">
+      <nav class="md-nav" aria-label="注入分类" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_1_2_1">
           <span class="md-nav__icon md-icon"></span>
           注入分类
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+        SQL注入
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SQL注入/基础/绕过waf.md" class="md-nav__link">
+        waf
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -475,6 +538,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           宽字节注入
@@ -490,6 +555,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -498,23 +565,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    宽字符注入
+  <a href="#_2" class="md-nav__link">
+    宽字节注入的原理
   </a>
   
-    <nav class="md-nav" aria-label="宽字符注入">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    如何防御
+  </a>
+  
+    <nav class="md-nav" aria-label="如何防御">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    利用方式
+  <a href="#_4" class="md-nav__link">
+    过滤方式
+  </a>
+  
+    <nav class="md-nav" aria-label="过滤方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#addslashes" class="md-nav__link">
+    addslashes
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    如何防御
+  <a href="#mysqli_real_escape" class="md-nav__link">
+    mysqli_real_escape
   </a>
   
 </li>
@@ -523,14 +605,6 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    过滤方式
-  </a>
-  
-    <nav class="md-nav" aria-label="过滤方式">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
@@ -541,6 +615,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referer" class="md-nav__link">
+    referer
+  </a>
   
 </li>
       
@@ -583,18 +664,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2_2" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_2">
+        <label class="md-nav__link" for="__nav_3_1_2_2">
           绕过
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="绕过" data-md-level="3">
-        <label class="md-nav__title" for="__nav_3_1_2">
+      <nav class="md-nav" aria-label="绕过" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_1_2_2">
           <span class="md-nav__icon md-icon"></span>
           绕过
         </label>
@@ -644,18 +725,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2_3" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_3">
+        <label class="md-nav__link" for="__nav_3_1_2_3">
           防护
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="防护" data-md-level="3">
-        <label class="md-nav__title" for="__nav_3_1_3">
+      <nav class="md-nav" aria-label="防护" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_1_2_3">
           <span class="md-nav__icon md-icon"></span>
           防护
         </label>
@@ -670,6 +751,13 @@
       <a href="../PDO/" class="md-nav__link">
         PDO
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1319,6 +1407,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1327,23 +1417,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    宽字符注入
+  <a href="#_2" class="md-nav__link">
+    宽字节注入的原理
   </a>
   
-    <nav class="md-nav" aria-label="宽字符注入">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    如何防御
+  </a>
+  
+    <nav class="md-nav" aria-label="如何防御">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    利用方式
+  <a href="#_4" class="md-nav__link">
+    过滤方式
+  </a>
+  
+    <nav class="md-nav" aria-label="过滤方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#addslashes" class="md-nav__link">
+    addslashes
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    如何防御
+  <a href="#mysqli_real_escape" class="md-nav__link">
+    mysqli_real_escape
   </a>
   
 </li>
@@ -1352,14 +1457,6 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    过滤方式
-  </a>
-  
-    <nav class="md-nav" aria-label="过滤方式">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#_5" class="md-nav__link">
@@ -1370,6 +1467,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referer" class="md-nav__link">
+    referer
+  </a>
   
 </li>
       
@@ -1386,35 +1490,35 @@
               
                 
                 
-                  <h1>宽字节注入</h1>
-                
-                <h2 id="_1">宽字符注入</h2>
-<p>宽字符注入的原理？</p>
-<p>背后的编码的不同？</p>
-<p>如何利用宽字符注入？</p>
-<p>几种过滤方式的实现？</p>
-<p>宽字符注入仿佛是一个经常出现的词语，下面简述下原理。</p>
-<p>原理十分简单，即我们经常对传入的数据进行过滤，当对单引号进行转义的时候就会造成SQL语句的失效。</p>
-<p>即 在 '之前添加上 \ </p>
-<p>当发生转义之后我们通常有两种解决的方式，</p>
-<p>第一种是 转义\，即在 \之前先添加一个\使其变化为</p>
-<pre><code>\
-\\ 
+                <h1 id="_1">宽字符注入</h1>
+<p>宽字节注入是一个非常常见的话题，即使在PDO的保护下也有可能存在宽字节注入。 <br />
+本篇文章会包括以下几点 <br />
+- 宽字符注入的原理？
+- 几种过滤方式的实现？</p>
+<h2 id="_2">宽字节注入的原理</h2>
+<p>宽字节原理十分简单，即我们经常对传入的数据进行过滤，当对单引号进行转义的时候就会造成程序自身的SQL语句的失效。
+即 在 '之前添加上 \ 
+当发生转义之后我们通常有两种解决的方式，
+1. 第一种是 转义\，即在 \之前先添加一个\使其变化为</p>
+<pre><code>\  -》 \\ 
 </code></pre>
-<p>从而不生效。</p>
-<p>另外一种是 使\消失，在url编码当中 '对应的编码为 %27,而\对应的编码为 %5c 如果我们能够在 '之前添加%df，即传入的数据为 </p>
+<p>从而不生效。
+2. 另外一种是 使\消失，在url编码当中 '对应的编码为 %27,而\对应的编码为 %5c 如果我们能够在 '之前添加%df，即传入的数据为   </p>
 <pre><code>index.php?id=%df'
+当添加反斜杠的时候就会变成  
+index.php?id=%df%5c'
 </code></pre>
-<p>当添加反斜杠的时候就会变成  </p>
-<pre><code>index.php?id=%df%5c'
-</code></pre>
-<p>恰好%df%5c在<strong>mysql当中的gbk编码</strong>当中对应的是一个特殊的中文字符，从而使得 ' 保留。</p>
-<p>ps 这里即使不是df 只要其数据大于 128 0x81都可以 </p>
-<p>另外只要字符集当中存在 0x5c 也就是反斜杠的十六进制我们都可以试试</p>
-<h3 id="_2">利用方式</h3>
-<h3 id="_3">如何防御</h3>
+<p>恰好%df%5c在<strong>mysql当中的gbk编码</strong>当中对应的是一个特殊的中文字符，从而使得 ' 保留。
+ps 这里即使不是df 只要其数据大于 128 0x81都可以 
+另外只要字符集当中存在 0x5c 也就是反斜杠的十六进制我们都可以试试
+所以实际上 这个问题是 mysql和php的问题。<br />
+php 的 addslash会在 ' 之前添加 \ <br />
+mysql 的gbk字符集当中过滤后'\正好是一个字符</p>
+<h2 id="_3">如何防御</h2>
 <p>分两种情况</p>
-<p>第一种是当前的数据库编码为gbk </p>
+<ol>
+<li>第一种是当前的数据库编码为gbk </li>
+</ol>
 <pre><code>1、设置mysql_charset为gbk
 mysql_query(&quot;SET NAMES 'gbk'&quot;);
 mysql_set_charset('gbk',$conn);
@@ -1422,17 +1526,28 @@ mysql_set_charset('gbk',$conn);
 2、使用mysql_real_escape_string 
 mysql_real_escape_string()
 </code></pre>
-<p>第二种是数据库编码不是gbk</p>
-<p>设置mysql的编码格式为binary</p>
-<p>即设置character_set_client为binary  </p>
+<p>第二种是数据库编码不是gbk
+设置mysql的编码格式为binary
+即设置character_set_client为binary  </p>
 <pre><code>SET character_set_connection=gbk, character_set_results=gbk,character_set_client=binary
 </code></pre>
-<h2 id="_4">过滤方式</h2>
-<p>magic_quote_gpc</p>
-<p>mysql_real_escape </p>
-<p>addslashes</p>
-<p>html实体编码 </p>
-<h3 id="_5">需要解答的问题</h3>
+<h4 id="_4">过滤方式</h4>
+<p>magic_quote_gpc
+mysql_real_escape 
+addslashes
+html实体编码 </p>
+<h5 id="addslashes">addslashes</h5>
+<p>在传入参数的 '' " \ NULL 之前都会加上\进行转义。
+magic_quote_gpc 在 php4.0以上是默认开启的，但是在5.4之后取消了这个特性，其作用是addslashes和 stripslashes
+当打开时，所有的 '（单引号），"（双引号），\（反斜线）和 NULL 字符都会被自动加上一个反斜线进行转义。
+在拼接sql语句的时候是将变量放入了单引号当中，其中只要包含其中的字符都会进行转义。</p>
+<h5 id="mysqli_real_escape">mysqli_real_escape</h5>
+<p><a href="https://www.php.net/manual/zh/mysqli.real-escape-string.php">官方文档</a> 
+此函数用来对字符串当中的特殊字符进行转义，使得这个字符串变化为一个合法的SQL语句。但是要提前设置好对应的字符
+转义的字符串 </p>
+<pre><code>NUL \n \r \ ' &quot;
+</code></pre>
+<h4 id="_5">需要解答的问题</h4>
 <p>Q：url_encode是每一次get请求都会发生的吗？</p>
 <p>A：首先说明什么是url编码 </p>
 <p>只有字母和数字[0-9a-zA-Z]、一些特殊符号"$-_.+!*'(),"[不包括双引号]、以及某些保留字，才可以不经过编码直接用于URL。其他的参数都需要进行编码之后才能传入url当中。所以我们之前使用了#没有什么作用，使用代替的%23得到了结果。</p>
@@ -1440,38 +1555,20 @@ mysql_real_escape_string()
 <p>Q：宽字符注入的时候会造成一个特殊字符配合'</p>
 <p>形如 x' and 1=1; 为什么不会得到报错？ 难道是过滤了？</p>
 <p>A：确实不会有任何过滤的现象。这个需要进行试验。</p>
-<p>Q：设置成binary之后会有什么不一样吗？为什么就不会造成注入了？</p>
-<p>A:</p>
 <p>Q:几种过滤的方法到底造成了什么样的不同？ </p>
 <p>A:过滤方式大致有 </p>
 <pre><code>addslashes()
 magic_quote() 
 mysql_sql_real_escape()
 </code></pre>
-<p><strong>addslashes</strong></p>
-<p>在传入参数的 '' " \ NULL 之前都会加上\进行转义。</p>
-<p>magic_quote_gpc 在 php4.0以上是默认开启的，但是在5.4之后取消了这个特性，其作用是addslashes和 stripslashes</p>
-<p>当打开时，所有的 '（单引号），"（双引号），\（反斜线）和 NULL 字符都会被自动加上一个反斜线进行转义。</p>
-<p>在拼接sql语句的时候是将变量放入了单引号当中，其中只要包含其中的字符都会进行转义。</p>
-<p>https://0verwatch.top/sql-inject-protect.html</p>
-<p>mysqli_real_escape</p>
-<p>https://www.php.net/manual/zh/mysqli.real-escape-string.php </p>
-<p>此函数用来对字符串当中的特殊字符进行转义，使得这个字符串变化为一个合法的SQL语句。</p>
-<p>转义的字符串 </p>
-<pre><code>NUL \n \r \ ' &quot;
-</code></pre>
 <p>如何进行绕过？</p>
 <p>select * from users where username='admin\' #' and password='';</p>
 <p>转换为 </p>
 <pre><code>select * from users where username=char(97,100,109,105,110)#' and password='';
 </code></pre>
-<p>Q:为什么sqlilab当中说单个的sql过滤防护是不够的？ </p>
-<p>Q：最新的mysql防御方式是什么？ </p>
-<p>Q:新版本的mysql会有什么变化吗？</p>
-<p>https://www.leavesongs.com/PENETRATION/mutibyte-sql-inject.html</p>
-<p>https://mp.weixin.qq.com/s?__biz=MzIwMzIyMjYzNA==&amp;mid=2247492931&amp;idx=1&amp;sn=870df404cb192234f2d9b0d3859519a0</p>
-<p>https://www.cnblogs.com/joshua317/articles/3939718.html</p>
-<p>Q：参数化注入是否能够避免sql注入 </p>
+<h2 id="referer">referer</h2>
+<p><a href="https://www.leavesongs.com/PENETRATION/mutibyte-sql-inject.html">p牛的博客</a></p>
+<p><a href="https://www.cnblogs.com/joshua317/articles/3939718.html">浅谈开启magic_quotes_gpc后的sql注入攻与防</a></p>
                 
               
               

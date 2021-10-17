@@ -2,182 +2,197 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://startr4ck.top/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/About/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/csv%E6%B3%A8%E5%85%A5/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/NOsql%E6%B3%A8%E5%85%A5/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/PDO/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/Untitled/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/csv%E6%B3%A8%E5%85%A5/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/mysql%E5%B8%83%E5%B0%94%E6%B3%A8%E5%85%A5/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/postgresql/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/sql%E6%B3%A8%E5%85%A5/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/%E7%9B%B2%E6%B3%A8/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87waf/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/</loc>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://startr4ck.top/%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/</loc>
+         <lastmod>2021-10-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/2021%E6%84%9F%E6%82%9F/</loc>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E4%B8%AD%E7%AF%87/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC1/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC2/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC3/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC4/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC6/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC7/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/DC8/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/Djinn/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/HA-wordy/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/MrRobot/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/hackme/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/inplainsight/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/minua/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/sunset_1/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/sunset_nightfall/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://startr4ck.top/%E9%9D%B6%E6%9C%BA/unknowndevice6/</loc>
-         <lastmod>2021-10-16</lastmod>
+         <lastmod>2021-10-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
