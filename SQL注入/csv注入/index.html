@@ -16,7 +16,7 @@
     
     
       
-        <title>Csv注入 - Startr4ck安全所学</title>
+        <title>CSV注入 - Startr4ck安全所学</title>
       
     
     
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Csv注入
+              CSV注入
             
           </span>
         </div>
@@ -176,6 +176,8 @@
         
   
   
+    
+  
 
 
   
@@ -187,7 +189,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link">
+      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link md-tabs__link--active">
         WEB安全
       </a>
     </li>
@@ -360,12 +362,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -386,12 +390,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
       
       
       
@@ -426,23 +432,87 @@
               
   
   
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          CSV注入
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        CSV注入
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    前提
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#payload" class="md-nav__link">
+    常见的payload
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refer" class="md-nav__link">
+    refer
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
   
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_2">
+        <label class="md-nav__link" for="__nav_3_1_3">
           SQL注入
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="SQL注入" data-md-level="3">
-        <label class="md-nav__title" for="__nav_3_1_2">
+        <label class="md-nav__title" for="__nav_3_1_3">
           <span class="md-nav__icon md-icon"></span>
           SQL注入
         </label>
@@ -457,18 +527,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3_1" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_2_1">
+        <label class="md-nav__link" for="__nav_3_1_3_1">
           注入分类
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="注入分类" data-md-level="4">
-        <label class="md-nav__title" for="__nav_3_1_2_1">
+        <label class="md-nav__title" for="__nav_3_1_3_1">
           <span class="md-nav__icon md-icon"></span>
           注入分类
         </label>
@@ -482,20 +552,6 @@
     <li class="md-nav__item">
       <a href="../%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         SQL注入
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../SQL注入/基础/绕过waf.md" class="md-nav__link">
-        waf
       </a>
     </li>
   
@@ -560,18 +616,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3_2" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_2_2">
+        <label class="md-nav__link" for="__nav_3_1_3_2">
           绕过
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="绕过" data-md-level="4">
-        <label class="md-nav__title" for="__nav_3_1_2_2">
+        <label class="md-nav__title" for="__nav_3_1_3_2">
           <span class="md-nav__icon md-icon"></span>
           绕过
         </label>
@@ -583,7 +639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../CSV注入/csv注入.md" class="md-nav__link">
+      <a href="../%E7%BB%95%E8%BF%87waf/" class="md-nav__link">
         绕过waf
       </a>
     </li>
@@ -621,18 +677,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_2_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3_3" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1_2_3">
+        <label class="md-nav__link" for="__nav_3_1_3_3">
           防护
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="防护" data-md-level="4">
-        <label class="md-nav__title" for="__nav_3_1_2_3">
+        <label class="md-nav__title" for="__nav_3_1_3_3">
           <span class="md-nav__icon md-icon"></span>
           防护
         </label>
@@ -1344,7 +1400,7 @@
               
                 
                 
-                  <h1>Csv注入</h1>
+                  <h1>CSV注入</h1>
                 
                 <p><strong>不仅仅是cve当中的一个简单的注入，更是dde类型注入，在office365当中都具有</strong></p>
 <p>和普通的注入差距不大，但是是属于导出到csv文件当中，当打开csv文件的时候就会造成csv当中的某些代码执行，当某些安全意识比较低的用户点开之后就会出现问题。 </p>
@@ -1391,6 +1447,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 注入" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              注入
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-footer__link md-footer__link--next" aria-label="Next: SQL注入" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              SQL注入
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
