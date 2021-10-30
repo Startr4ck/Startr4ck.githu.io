@@ -1015,7 +1015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/shellshock/shellshock/" class="md-nav__link">
+      <a href="../../../../WEB安全/漏洞复现/shellshock/shellshock  .md" class="md-nav__link">
         shellshock复现
       </a>
     </li>
@@ -1394,14 +1394,14 @@
       
       
         <label class="md-nav__link" for="__nav_4_2_1">
-          委派
+          NtlmRelay
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="委派" data-md-level="3">
+      <nav class="md-nav" aria-label="NtlmRelay" data-md-level="3">
         <label class="md-nav__title" for="__nav_4_2_1">
           <span class="md-nav__icon md-icon"></span>
-          委派
+          NtlmRelay
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1420,12 +1420,120 @@
       
       
         <label class="md-nav__link" for="__nav_4_2_1_1">
+          实战
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="实战" data-md-level="4">
+        <label class="md-nav__title" for="__nav_4_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          实战
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/NtlmRelay/ntlmRelayCs/" class="md-nav__link">
+        0x1通过petitpotam接口拿下域控
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/NtlmRelay/ntlmRelayLdap/" class="md-nav__link">
+        0x2通过基于资源的约束性委派获得其他主机的高权限票据
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/NtlmRelay/ntlmRelayEWS/" class="md-nav__link">
+        0x3通过EWS接口接管Exchange邮箱
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_2" data-md-state="indeterminate" type="checkbox" id="__nav_4_2_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_2">
+          委派
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="委派" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          委派
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_2_1" data-md-state="indeterminate" type="checkbox" id="__nav_4_2_2_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2_2_1">
           基础
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="基础" data-md-level="4">
-        <label class="md-nav__title" for="__nav_4_2_1_1">
+        <label class="md-nav__title" for="__nav_4_2_2_1">
           <span class="md-nav__icon md-icon"></span>
           基础
         </label>
@@ -2207,11 +2315,11 @@ HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Services \ NetBT \ Parameters 
 计算机名称到IP地址的管理方式<br />
 <strong>工作的方式</strong>
 第一种 位于同一工作组的电脑之间利用广播功能进行计算机名的管理<br />
-电脑在启动或者是联网的时候，会查询在局域网下是否是存在具有相同的NetBios名称的主机<br />
-第二种 利用WINS(Windows 因特网名称服务)管理NetBios名称<br />
-WINS服务器用于记录计算机NetBios名称和IP地址的对应关系，供局域网计算机查询，系统启动的时候会将自己的NetBios名称和IP地址的对应发送给WINS服务器 <br />
-第一种类似于DHCP分配IP地址，第二种里面说的WINS服务器就类似于DNS服务器，将NetBios的名称和ip之间相互对应
-<strong>相关的命令</strong>  </p>
+电脑在启动或者是联网的时候，会查询在局域网下是否是存在具有相同的NetBios名称的主机  </p>
+<p>第二种 利用WINS(Windows 因特网名称服务)管理NetBios名称<br />
+WINS服务器用于记录计算机NetBios名称和IP地址的对应关系，供局域网计算机查询，系统启动的时候会将自己的NetBios名称和IP地址的对应发送给WINS服务器   </p>
+<p>第三种类似于DHCP分配IP地址，第二种里面说的WINS服务器就类似于DNS服务器，将NetBios的名称和ip之间相互对应  </p>
+<p><strong>相关的命令</strong>  </p>
 <pre><code>NBTSTAT列出来指定名称的名称和IP以及会话表等等  
 NBTSTAT -A ip地址  查询该IP所对应的NetBios名称，命令的本质是向该IP地址对应的137端口发送查询的信息    
 nbtstat -c 进行查看缓存   
@@ -2292,7 +2400,7 @@ https://www.freebuf.com/articles/network/165392.html</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/shellshock/shellshock/" class="md-footer__link md-footer__link--prev" aria-label="Previous: shellshock复现" rel="prev">
+        <a href="../../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE/" class="md-footer__link md-footer__link--prev" aria-label="Previous: PHPMYADMIN_4.8.X_LFI_TO_RCE" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2301,7 +2409,7 @@ https://www.freebuf.com/articles/network/165392.html</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              shellshock复现
+              PHPMYADMIN_4.8.X_LFI_TO_RCE
             </div>
           </div>
         </a>
