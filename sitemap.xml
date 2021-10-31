@@ -146,6 +146,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/pth/</loc>
+         <lastmod>2021-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/wmic%E5%8E%9F%E7%90%86/</loc>
          <lastmod>2021-10-31</lastmod>
          <changefreq>daily</changefreq>
@@ -197,6 +202,16 @@
     </url>
     <url>
          <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/</loc>
+         <lastmod>2021-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E7%88%86%E7%A0%B4/as-reproast/</loc>
+         <lastmod>2021-10-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E7%88%86%E7%A0%B4/kerberoast/</loc>
          <lastmod>2021-10-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
