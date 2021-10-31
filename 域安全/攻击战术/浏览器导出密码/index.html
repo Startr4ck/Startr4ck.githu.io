@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://startr4ck.top/WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/">
+        <link rel="canonical" href="https://startr4ck.top/%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%BC%E5%87%BA%E5%AF%86%E7%A0%81/">
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
     
     
       
-        <title>REDIS主从复制RCE - Startr4ck安全所学</title>
+        <title>浏览器导出密码 - Startr4ck安全所学</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.5143246d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.5143246d.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -55,7 +55,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("../../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#redis" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="Startr4ck安全所学" class="md-header__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
+    <a href="../../.." title="Startr4ck安全所学" class="md-header__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              REDIS主从复制RCE
+              浏览器导出密码
             
           </span>
         </div>
@@ -155,7 +155,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -167,7 +167,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../../../About/" class="md-tabs__link">
+    <a href="../../../About/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -175,8 +175,6 @@
       
         
   
-  
-    
   
 
 
@@ -194,7 +192,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA/" class="md-tabs__link">
         WEB安全
       </a>
     </li>
@@ -208,6 +206,8 @@
         
   
   
+    
+  
 
 
   
@@ -224,7 +224,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-tabs__link">
+      <a href="../../%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-tabs__link md-tabs__link--active">
         域渗透
       </a>
     </li>
@@ -249,7 +249,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-tabs__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-tabs__link">
         靶机
       </a>
     </li>
@@ -277,7 +277,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-tabs__link">
+      <a href="../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-tabs__link">
         经验感悟
       </a>
     </li>
@@ -315,7 +315,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Startr4ck安全所学" class="md-nav__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
+    <a href="../../.." title="Startr4ck安全所学" class="md-nav__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -334,7 +334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -349,7 +349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../About/" class="md-nav__link">
+      <a href="../../../About/" class="md-nav__link">
         About
       </a>
     </li>
@@ -362,14 +362,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -444,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA/" class="md-nav__link">
         文件上传漏洞靶场
       </a>
     </li>
@@ -491,7 +489,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90/%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90/%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
         文件解析漏洞
       </a>
     </li>
@@ -538,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CSRF/csrf%E6%BC%8F%E6%B4%9E%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/CSRF/csrf%E6%BC%8F%E6%B4%9E%E5%9F%BA%E7%A1%80/" class="md-nav__link">
         CSRF漏洞
       </a>
     </li>
@@ -552,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CSRF/cors%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/CSRF/cors%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
         CORF错误配置
       </a>
     </li>
@@ -599,7 +597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         注入简介
       </a>
     </li>
@@ -613,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/csv%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/csv%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         CSV注入
       </a>
     </li>
@@ -679,7 +677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         SQL注入
       </a>
     </li>
@@ -693,7 +691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         宽字节注入
       </a>
     </li>
@@ -707,7 +705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
         盲注
       </a>
     </li>
@@ -754,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87/" class="md-nav__link">
         绕过
       </a>
     </li>
@@ -768,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         NOsql注入
       </a>
     </li>
@@ -815,7 +813,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/PDO/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/PDO/" class="md-nav__link">
         PDO
       </a>
     </li>
@@ -855,14 +853,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" data-md-state="indeterminate" type="checkbox" id="__nav_3_2" checked>
       
       
       
@@ -883,14 +879,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_2_1" checked>
       
       
       
@@ -913,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
         REDIS未授权利用
       </a>
     </li>
@@ -925,85 +919,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          REDIS主从复制RCE
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/" class="md-nav__link">
         REDIS主从复制RCE
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    原理
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    实践操作
-  </a>
-  
-    <nav class="md-nav" aria-label="实践操作">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    利用前提
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    实践的结果
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#refer" class="md-nav__link">
-    refer
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1048,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE/" class="md-nav__link">
         PHPMYADMIN_4.8.X_LFI_TO_RCE
       </a>
     </li>
@@ -1095,7 +1015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shellshock/shellshock/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/shellshock/shellshock/" class="md-nav__link">
         shellshock复现
       </a>
     </li>
@@ -1129,12 +1049,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
       
       
@@ -1209,7 +1131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+      <a href="../../%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-nav__link">
         Adidns协议基础
       </a>
     </li>
@@ -1256,7 +1178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Netbios%E7%9A%84%E6%A2%B3%E7%90%86/" class="md-nav__link">
+      <a href="../../%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Netbios%E7%9A%84%E6%A2%B3%E7%90%86/" class="md-nav__link">
         Netbios协议
       </a>
     </li>
@@ -1303,7 +1225,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%BD%91%E7%BB%9C%E8%BD%AC%E5%8F%91/" class="md-nav__link">
+      <a href="../../%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%BD%91%E7%BB%9C%E8%BD%AC%E5%8F%91/" class="md-nav__link">
         内网流量转发
       </a>
     </li>
@@ -1329,12 +1251,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" data-md-state="indeterminate" type="checkbox" id="__nav_4_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
       
       
       
@@ -1409,7 +1333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/NtlmRelay/ntlmRelayCs/" class="md-nav__link">
+      <a href="../NtlmRelay/ntlmRelayCs/" class="md-nav__link">
         0x1通过petitpotam接口拿下域控
       </a>
     </li>
@@ -1423,7 +1347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/NtlmRelay/ntlmRelayLdap/" class="md-nav__link">
+      <a href="../NtlmRelay/ntlmRelayLdap/" class="md-nav__link">
         0x2通过基于资源的约束性委派获得其他主机的高权限票据
       </a>
     </li>
@@ -1437,7 +1361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/NtlmRelay/ntlmRelayEWS/" class="md-nav__link">
+      <a href="../NtlmRelay/ntlmRelayEWS/" class="md-nav__link">
         0x3通过EWS接口接管Exchange邮箱
       </a>
     </li>
@@ -1517,7 +1441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
+      <a href="../%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
         约束委派
       </a>
     </li>
@@ -1531,7 +1455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
+      <a href="../%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
         非约束委派
       </a>
     </li>
@@ -1557,12 +1481,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_3" data-md-state="indeterminate" type="checkbox" id="__nav_4_2_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2_3" type="checkbox" id="__nav_4_2_3" checked>
       
       
       
@@ -1611,7 +1537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../域安全/攻击战术/Azure基础.md" class="md-nav__link">
+      <a href="../../../域安全/攻击战术/Azure基础.md" class="md-nav__link">
         Azure基础
       </a>
     </li>
@@ -1625,7 +1551,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/Azure/Azure%E9%A3%8E%E9%99%A9%E7%82%B9/" class="md-nav__link">
+      <a href="../Azure/Azure%E9%A3%8E%E9%99%A9%E7%82%B9/" class="md-nav__link">
         Azure风险点
       </a>
     </li>
@@ -1646,7 +1572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB/wsus%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%8F%90%E6%9D%83/" class="md-nav__link">
+      <a href="../%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB/wsus%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%8F%90%E6%9D%83/" class="md-nav__link">
         wsus中间人提权
       </a>
     </li>
@@ -1658,11 +1584,88 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%BC%E5%87%BA%E5%AF%86%E7%A0%81/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          浏览器导出密码
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         浏览器导出密码
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    浏览器保存密码
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    浏览器密码存储原理
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    实践
+  </a>
+  
+    <nav class="md-nav" aria-label="实践">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    1 在能够登入目标桌面的情况下
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2shell" class="md-nav__link">
+    2、只有一个shell
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refer" class="md-nav__link">
+    refer
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1714,7 +1717,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-nav__link">
+      <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-nav__link">
         GPP组策略提权
       </a>
     </li>
@@ -1761,7 +1764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/%E5%9F%9F%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/" class="md-nav__link">
+      <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/%E5%9F%9F%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/" class="md-nav__link">
         域权限维持
       </a>
     </li>
@@ -1775,7 +1778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/Admin%20SDHolder/" class="md-nav__link">
+      <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/Admin%20SDHolder/" class="md-nav__link">
         Admin SD_holder
       </a>
     </li>
@@ -1789,7 +1792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/DCshadow/" class="md-nav__link">
+      <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/DCshadow/" class="md-nav__link">
         DCshadow
       </a>
     </li>
@@ -1803,7 +1806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/ShadowCredentials/" class="md-nav__link">
+      <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/ShadowCredentials/" class="md-nav__link">
         ShadowCredentials
       </a>
     </li>
@@ -1817,7 +1820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/SID_history/" class="md-nav__link">
+      <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/SID_history/" class="md-nav__link">
         SID_history
       </a>
     </li>
@@ -1898,7 +1901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-nav__link">
         DC1
       </a>
     </li>
@@ -1912,7 +1915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC2/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC2/" class="md-nav__link">
         DC2
       </a>
     </li>
@@ -1926,7 +1929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC3/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC3/" class="md-nav__link">
         DC3
       </a>
     </li>
@@ -1940,7 +1943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC4/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC4/" class="md-nav__link">
         DC4
       </a>
     </li>
@@ -1954,7 +1957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC6/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC6/" class="md-nav__link">
         DC6
       </a>
     </li>
@@ -1968,7 +1971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC7/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC7/" class="md-nav__link">
         DC7
       </a>
     </li>
@@ -1982,7 +1985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC8/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC8/" class="md-nav__link">
         DC8
       </a>
     </li>
@@ -1996,7 +1999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/Djinn/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/Djinn/" class="md-nav__link">
         Djinn
       </a>
     </li>
@@ -2010,7 +2013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/HA-wordy/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/HA-wordy/" class="md-nav__link">
         HA-wordy
       </a>
     </li>
@@ -2024,7 +2027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/hackme/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/hackme/" class="md-nav__link">
         hackme
       </a>
     </li>
@@ -2038,7 +2041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/inplainsight/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/inplainsight/" class="md-nav__link">
         inplainsight
       </a>
     </li>
@@ -2052,7 +2055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/" class="md-nav__link">
         Me_and_My_GirlFriend
       </a>
     </li>
@@ -2066,7 +2069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/minua/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/minua/" class="md-nav__link">
         minua
       </a>
     </li>
@@ -2080,7 +2083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/MrRobot/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/MrRobot/" class="md-nav__link">
         MrRobot
       </a>
     </li>
@@ -2094,7 +2097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/" class="md-nav__link">
         OS-HackNotes-2.1
       </a>
     </li>
@@ -2108,7 +2111,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/sunset_1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/sunset_1/" class="md-nav__link">
         sunset_1
       </a>
     </li>
@@ -2122,7 +2125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/sunset_nightfall/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/sunset_nightfall/" class="md-nav__link">
         sunset_nightfall
       </a>
     </li>
@@ -2136,7 +2139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/unknowndevice6/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/unknowndevice6/" class="md-nav__link">
         unknowndevice6
       </a>
     </li>
@@ -2243,7 +2246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-nav__link">
+      <a href="../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-nav__link">
         OSWE 介绍
       </a>
     </li>
@@ -2257,7 +2260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/" class="md-nav__link">
+      <a href="../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/" class="md-nav__link">
         OSWE 考试方法
       </a>
     </li>
@@ -2301,8 +2304,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2312,29 +2313,36 @@
       
         <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    原理
+    浏览器保存密码
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    实践操作
+    浏览器密码存储原理
   </a>
   
-    <nav class="md-nav" aria-label="实践操作">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    实践
+  </a>
+  
+    <nav class="md-nav" aria-label="实践">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    利用前提
+  <a href="#1" class="md-nav__link">
+    1 在能够登入目标桌面的情况下
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    实践的结果
+  <a href="#2shell" class="md-nav__link">
+    2、只有一个shell
   </a>
   
 </li>
@@ -2364,21 +2372,62 @@
               
                 
                 
-                <h1 id="redis">REDIS主从复制提权</h1>
-<p>利用第三方库进行提权 ，影响的版本是redis 4.x   </p>
-<h2 id="_1">原理</h2>
-<p><img alt="20211026214804" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211026214804.png" /><br />
-简单概括下，成为master加载第三方库主从复制中的sync执行过程，设置我们的vps作为从服务器，然后执行命令之后，直接连到靶机上执行第三方模块中的命令结果    </p>
-<h2 id="_2">实践操作</h2>
-<p>本次要进行复现的漏洞就是使用第二种进行  </p>
-<h3 id="_3">利用前提</h3>
-<p>1.我们有一台vps其中开启了redis服务<br />
-2.靶机支持主从服务，也是未授权 版本在5左右，支持第三方模块  </p>
-<h3 id="_4">实践的结果</h3>
-<p><img alt="20211026215002" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211026215002.png" /></p>
+                  <h1>浏览器导出密码</h1>
+                
+                <h2 id="_1">浏览器保存密码</h2>
+<p>在这篇文章当中主要搞清楚以下几点 </p>
+<ul>
+<li>浏览器当中如何进行保存密码 </li>
+<li>在渗透测试当中我们如何读取浏览器当中的密码以及检测这种行为  </li>
+<li>对常见的一些工具的分析 </li>
+</ul>
+<h2 id="_2">浏览器密码存储原理</h2>
+<p>浏览器密码在内网渗透测试当中非常重要，许多内网的应用和AD域进行绑定的则很多WEB密码和AD域当中的密码相同。  </p>
+<p>使用常规导出lsass的软件不行的时候可以考虑使用导出浏览器密码</p>
+<p><strong>原理</strong></p>
+<p>chrome自身使用了 CryptProtectData()进行实现  </p>
+<p>只有当加密数据的用户和拥有相同登录凭据的用户才能进行解密  ，这里说的相同登录凭据是说的 用户的明文密码</p>
+<p><strong>结论</strong>：当获取到一个用户的权限的时候是能够导出该权限对应的浏览器所保存的密码的。  </p>
+<p>在其他终端上，可以通过获取对应的用户明文密码和masterkey得到浏览器保存密码。</p>
+<pre><code>privilege::debug
+sekurlsa::dpapi
+</code></pre>
+<p>离线进行提取</p>
+<pre><code>sekurlsa::minidump lsass.dmp
+sekurlsa::dpapi
+</code></pre>
+<p>整个解密的流程 </p>
+<pre><code>1、获得用户系统Chrome保存密码的SQLite数据库文件，位于%LocalAppData%\Google\Chrome\User Data\Default\Login Data
+2、获得lsass进程的内存文件
+3、在本地使用mimikatz提取Master Key，解密Login Data获得明文
+</code></pre>
+<p>DPAPI blob《- Masterkey解密 《- MasterKeyFile 明文解密 </p>
+<p>而Masterkey我们可以使用 Mimikatz进行提取 也可以使用 procdump进行提取  </p>
+<p>渗透技巧——导出Chrome浏览器中保存的密码 在其他终端导出chrome的明文密码  </p>
+<h2 id="_3">实践</h2>
+<h4 id="1">1 在能够登入目标桌面的情况下</h4>
+<p>常见于 </p>
+<p>通过vmware vsphere的漏洞获取到了 许多的云桌面的管理权限 </p>
+<p>但是并不知道对应的账户的域密码  </p>
+<p><img alt="20211031221720" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211031221720.png" /></p>
+<p>在这种情况下点击进行查看的时候会要求我们输入密码  </p>
+<p><img alt="20211031221729" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211031221729.png" /></p>
+<p>在这种情况下我们有两种方法进行导出密码 </p>
+<p>2、直接登录对应的网站(推荐)</p>
+<p>登录网站之后，因为默认保存了密码，我们可以通过f12修改前端的字段属性为text即可显示密码    </p>
+<p><img alt="20211031221739" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211031221739.png" /></p>
+<h4 id="2shell">2、只有一个shell</h4>
+<p>1、使用工具进行导出密码文件   </p>
+<p>在这里使用Lazagene进行导出数据  </p>
+<p>实测导出密码以及使用在Eset企业版当中并不会进行拦截
+<img alt="20211031221750" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211031221750.png" />
+我们可以通过这个工具获取到很多的密码。  </p>
+<p>我们也可以使用 hack-browser-data 进行导出数据  </p>
+<p><img alt="20211031221759" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211031221759.png" /></p>
 <h2 id="refer">refer</h2>
-<p><a href="https://paper.seebug.org/975/">Redis 基于主从复制的 RCE 利用方式</a></p>
-<p><a href="https://www.k0rz3n.com/2019/07/29/%E5%AF%B9%E4%B8%80%E6%AC%A1%20redis%20%E6%9C%AA%E6%8E%88%E6%9D%83%E5%86%99%E5%85%A5%E6%94%BB%E5%87%BB%E7%9A%84%E5%88%86%E6%9E%90%E4%BB%A5%E5%8F%8A%20redis%204.x%20RCE%20%E5%AD%A6%E4%B9%A0/">redis 4.x RCE</a></p>
+<p><a href="https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81">渗透技巧——导出Chrome浏览器中保存的密码</a></p>
+<p>lazagene工具下载</p>
+<p><a href="https://github.com/moonD4rk/HackBrowserData">HackBrowserData</a></p>
                 
               
               
@@ -2403,7 +2452,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-footer__link md-footer__link--prev" aria-label="Previous: REDIS未授权利用" rel="prev">
+        <a href="../%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB/wsus%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%8F%90%E6%9D%83/" class="md-footer__link md-footer__link--prev" aria-label="Previous: wsus中间人提权" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2412,20 +2461,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              REDIS未授权利用
+              wsus中间人提权
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE/" class="md-footer__link md-footer__link--next" aria-label="Next: PHPMYADMIN_4.8.X_LFI_TO_RCE" rel="next">
+        <a href="../../%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-footer__link md-footer__link--next" aria-label="Next: GPP组策略提权" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              PHPMYADMIN_4.8.X_LFI_TO_RCE
+              GPP组策略提权
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -2456,10 +2505,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
       
     
   </body>
