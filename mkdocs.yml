@@ -10,7 +10,7 @@ theme:
 
   features:
   #  - navigation.sections
-    - navigation.expand
+  #  - navigation.expand
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
@@ -19,7 +19,122 @@ theme:
 nav :
     - Home: index.md 
 
-    - About: csv注入.md
+    - About: About.md
+
     - WEB安全:
-        SQL注入:
-          - 布尔注入: SQL注入/mysql布尔注入.md
+      - 复现: 
+        - shellshock: 
+          - shellshock复现: WEB安全/漏洞复现/shellshock/shellshock.md
+        - Redis:  
+          - REDIS未授权利用: WEB安全/漏洞复现/redis/redis未授权利用.md
+          - REDIS主从复制RCE: WEB安全/漏洞复现/redis/redis主从复制的利用.md
+        - phpmyadmin: 
+          - PHPMYADMIN_4.8.X_LFI_TO_RCE: WEB安全/漏洞复现/phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE.md
+
+        - docker: 
+          - docker API 未授权: WEB安全/漏洞复现/docker/docker Daemon未授权.md
+        - elasticsearch: 
+          - elasticsearch未授权漏洞: WEB安全/漏洞复现/elasticsearch/elasticsearch未授权漏洞.md
+        - zookeeper: 
+          - zookeeper未授权漏洞: WEB安全/漏洞复现/zookeeper/zookeeper未授权.md
+        - kibana: 
+          - kibana未授权漏洞: WEB安全/漏洞复现/kibana/kibana未授权.md
+      - 基础漏洞: 
+        - 注入: 
+          - 注入简介: WEB安全/注入/注入.md
+          - CSV注入: WEB安全/SQL注入/csv注入.md
+          - SQL注入:
+            - 注入分类:
+              - SQL注入: WEB安全/SQL注入/基础/SQL注入.md
+              - 宽字节注入: WEB安全/SQL注入/宽字节注入.md
+              - 盲注: WEB安全/SQL注入/盲注.md
+            - 绕过:
+              - 绕过: WEB安全/SQL注入/绕过.md
+              - NOsql注入: WEB安全/SQL注入/NOsql注入.md
+            - 防护:  
+              - PDO: WEB安全/SQL注入/PDO.md
+        - 文件上传: 
+          - 文件上传常见防护绕过: WEB安全/文件上传漏洞/文件上传漏洞靶场.md
+        - 文件解析: 
+          - 文件解析漏洞: WEB安全/文件解析/常见文件解析漏洞.md
+        - CSRF: 
+          - CSRF漏洞: WEB安全/CSRF/csrf漏洞基础.md
+          - CORF错误配置: WEB安全/CSRF/cors漏洞.md
+        
+      
+    - 域渗透:
+      - 基础: 
+        - 域内基础协议: 
+          - Adidns协议基础: 域安全/基础知识/基础协议/Adidns基础.md
+          - PTH遇到了什么: 域安全/基础知识/基础协议/pth.md 
+          - 约束委派: 域安全/攻击战术/委派/约束性委派.md
+          - 非约束委派: 域安全/攻击战术/委派/非约束性委派.md
+        - 网络协议: 
+          - Netbios协议: 域安全/基础知识/基础协议/Netbios的梳理.md 
+          - wpad基础:  域安全/基础知识/基础协议/wpad.md
+          - wmic基础原理: 域安全/基础知识/基础协议/wmic原理.md
+        - 网络设置:  
+          - 内网流量转发: 域安全/基础知识/网络转发.md  
+
+  
+      - 获取权限:
+        - 爆破: 
+          - 实战: 
+            - kerberoast: 域安全/攻击战术/爆破/kerberoast.md
+            - as-reproast: 域安全/攻击战术/爆破/as-reproast.md
+
+        - 常规思路: 
+          - wsus中间人提权: 域安全/攻击战术/中间人攻击/wsus中间人提权.md 
+          - 浏览器导出密码: 域安全/攻击战术/浏览器导出密码.md
+          - Azure:
+            - Azure基础: 域安全/攻击战术/Azure/Azure基础.md
+            - Azure风险点: 域安全/攻击战术/Azure/Azure风险点.md
+      - 域内提权: 
+        - GPP组策略提权: 域安全/攻击手法/提权手法/GPP组策略提权.md
+        - HiveNightmare: 域安全/攻击手法/提权手法/Hivenightmare.md
+
+      - 权限维持: 
+        - 域权限维持: 域安全/攻击手法/权限维持/域权限维持.md
+        - Admin SD_holder: 域安全/攻击手法/权限维持/Admin SDHolder.md
+        - DCshadow: 域安全/攻击手法/权限维持/DCshadow.md  
+        - DCsync: 域安全/攻击手法/权限维持/DCsync.md  
+        - ShadowCredentials: 域安全/攻击手法/权限维持/ShadowCredentials.md   
+        - SID_history: 域安全/攻击手法/权限维持/SID_history.md   
+        - 关键ACL设置: 域安全/基础知识/基础协议/关键ACLs.md
+        - 邮件伪造: 域安全/攻击战术/伪造/邮件伪造.md
+      - 信息收集: 
+        - Nbtscan: 
+           - NBTSCAN的使用: 域安全/攻击手法/信息收集/nbtscan.md 
+      
+
+
+    - 靶机:
+      - Vulnhub:
+        - DC1: 靶机/DC1.md
+        - DC2: 靶机/DC2.md
+        - DC3: 靶机/DC3.md
+        - DC4: 靶机/DC4.md
+        - DC6: 靶机/DC6.md
+        - DC7: 靶机/DC7.md
+        - DC8: 靶机/DC8.md
+        - Djinn: 靶机/Djinn.md
+        - HA-wordy: 靶机/HA-wordy.md
+        - hackme: 靶机/hackme.md
+        - inplainsight: 靶机/inplainsight.md
+        - Me_and_My_GirlFriend: 靶机/Me_and_My_GirlFriend.md
+        - minua: 靶机/minua.md
+        - MrRobot: 靶机/MrRobot.md
+        - OS-HackNotes-2.1: 靶机/OS-HackNotes-2.1.md
+        - sunset_1: 靶机/sunset_1.md
+        - sunset_nightfall: 靶机/sunset_nightfall.md
+        - unknowndevice6: 靶机/unknowndevice6.md  
+    - 经验感悟: 
+      - 考证分享:
+        - OSWE: 
+          - OSWE 考试方法: 经验&&分享/考证/OSWE/OSWE尾篇.md
+          - OSWE 介绍: 经验&&分享/考证/OSWE/OSWE开篇.md
+    - 其他:
+      - 流行的概念:
+        - 无密码技术: 安全建设/基础知识/无密码技术.md 
+           
+
