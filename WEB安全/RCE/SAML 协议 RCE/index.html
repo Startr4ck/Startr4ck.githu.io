@@ -20,7 +20,7 @@
     
     
       
-        <title>SAML 协议 RCE - Startr4ck安全所学</title>
+        <title>SAMLRCE - Startr4ck安全所学</title>
       
     
     
@@ -101,7 +101,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SAML 协议 RCE
+              SAMLRCE
             
           </span>
         </div>
@@ -180,6 +180,8 @@
         
   
   
+    
+  
 
 
   
@@ -196,7 +198,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../APISIX%20%E7%AE%80%E4%BB%8B/" class="md-tabs__link">
+      <a href="../APISIX%20%E7%AE%80%E4%BB%8B/" class="md-tabs__link md-tabs__link--active">
         WEB安全
       </a>
     </li>
@@ -387,12 +389,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -413,12 +417,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
       
       
       
@@ -525,6 +531,180 @@
     <li class="md-nav__item">
       <a href="../3%E3%80%90RCE-APISIX%E3%80%91CVE-2022-24112%20%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4APISIX%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/" class="md-nav__link">
         CVE-2022-24112
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
+          SAML
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="SAML" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          SAML
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          SAMLRCE
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        SAMLRCE
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#saml" class="md-nav__link">
+    saml 是什么
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saml_1" class="md-nav__link">
+    saml常见的部署架构
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    认证的架构
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    认证所面对的安全问题是什么？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saml_2" class="md-nav__link">
+    saml所面临的攻击面是哪些？
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#xml" class="md-nav__link">
+    XML移除签名
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    相关文档
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_3">
+          jumpserver
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="jumpserver" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          jumpserver
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CVE-2023-42820%20jumpserver%E6%9C%80%E6%96%B0pre-auth/" class="md-nav__link">
+        CVE-2023-42820
       </a>
     </li>
   
@@ -2926,7 +3106,7 @@
               
                 
                 
-                  <h1>SAML 协议 RCE</h1>
+                  <h1>SAMLRCE</h1>
                 
                 <p><a href="https://www.netstarsec.com/%E4%BA%94%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9Asaml%E5%8D%8F%E8%AE%AE%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%8F%91%E7%8E%B0%E4%B8%8E%E5%88%A9%E7%94%A8/">https://www.netstarsec.com/%E4%BA%94%E5%88%86%E9%92%9F%E5%AD%A6%E4%BC%9Asaml%E5%8D%8F%E8%AE%AE%E6%BC%8F%E6%B4%9E%E7%9A%84%E5%8F%91%E7%8E%B0%E4%B8%8E%E5%88%A9%E7%94%A8/</a>
 <a href="https://xz.aliyun.com/t/12584?time__1311=mqmhD50KBIPGxiqGNveeuqWT3qI24pm71YD&amp;alichlgref=https%3A%2F%2Fwww.google.com%2F">https://xz.aliyun.com/t/12584?time__1311=mqmhD50KBIPGxiqGNveeuqWT3qI24pm71YD&amp;alichlgref=https%3A%2F%2Fwww.google.com%2F</a></p>
@@ -3016,6 +3196,41 @@ XSLT攻击 是 将XML格式转换为其他格式的语言，利用XSLT来进行�
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../3%E3%80%90RCE-APISIX%E3%80%91CVE-2022-24112%20%E6%8F%92%E4%BB%B6%E5%AF%BC%E8%87%B4APISIX%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C/" class="md-footer__link md-footer__link--prev" aria-label="Previous: CVE-2022-24112" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              CVE-2022-24112
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../CVE-2023-42820%20jumpserver%E6%9C%80%E6%96%B0pre-auth/" class="md-footer__link md-footer__link--next" aria-label="Next: CVE-2023-42820" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              CVE-2023-42820
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
