@@ -9,21 +9,21 @@
       
       
       
-        <link rel="canonical" href="https://startr4ck.top/WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/zookeeper/zookeeper%E6%9C%AA%E6%8E%88%E6%9D%83/">
+        <link rel="canonical" href="https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/XSS%20in%20PDF/">
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.3">
     
     
       
-        <title>zookeeper未授权漏洞 - Startr4ck安全所学</title>
+        <title>XSS in PDF - Startr4ck安全所学</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.5143246d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.5143246d.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
         
       
     
@@ -55,7 +55,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("../../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#zookeeper" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../.." title="Startr4ck安全所学" class="md-header__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
+    <a href="../../.." title="Startr4ck安全所学" class="md-header__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              zookeeper未授权漏洞
+              XSS in PDF
             
           </span>
         </div>
@@ -155,7 +155,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Home
     </a>
   </li>
@@ -167,7 +167,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../../../About/" class="md-tabs__link">
+    <a href="../../../About/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -175,8 +175,6 @@
       
         
   
-  
-    
   
 
 
@@ -194,7 +192,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../shellshock/shellshock/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/shellshock/shellshock/" class="md-tabs__link">
         WEB安全
       </a>
     </li>
@@ -224,7 +222,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-tabs__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-tabs__link">
         域渗透
       </a>
     </li>
@@ -249,7 +247,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-tabs__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-tabs__link">
         靶机
       </a>
     </li>
@@ -277,7 +275,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-tabs__link">
+      <a href="../../%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-tabs__link">
         经验感悟
       </a>
     </li>
@@ -302,7 +300,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../../%E5%AE%89%E5%85%A8%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%97%A0%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF/" class="md-tabs__link">
+      <a href="../../../%E5%AE%89%E5%85%A8%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%97%A0%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF/" class="md-tabs__link">
         其他
       </a>
     </li>
@@ -338,7 +336,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="Startr4ck安全所学" class="md-nav__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
+    <a href="../../.." title="Startr4ck安全所学" class="md-nav__button md-logo" aria-label="Startr4ck安全所学" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -357,7 +355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -372,7 +370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../About/" class="md-nav__link">
+      <a href="../../../About/" class="md-nav__link">
         About
       </a>
     </li>
@@ -385,14 +383,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -413,14 +409,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
       
       
       
@@ -469,7 +463,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shellshock/shellshock/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/shellshock/shellshock/" class="md-nav__link">
         shellshock复现
       </a>
     </li>
@@ -516,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../redis/redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
         REDIS未授权利用
       </a>
     </li>
@@ -530,7 +524,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/" class="md-nav__link">
         REDIS主从复制RCE
       </a>
     </li>
@@ -577,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/phpmyadmin/PHPMYADMIN_4.8.X_LFI_TO_RCE/" class="md-nav__link">
         PHPMYADMIN_4.8.X_LFI_TO_RCE
       </a>
     </li>
@@ -624,7 +618,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../docker/docker%20Daemon%E6%9C%AA%E6%8E%88%E6%9D%83/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/docker/docker%20Daemon%E6%9C%AA%E6%8E%88%E6%9D%83/" class="md-nav__link">
         docker API 未授权
       </a>
     </li>
@@ -671,7 +665,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../elasticsearch/elasticsearch%E6%9C%AA%E6%8E%88%E6%9D%83%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/elasticsearch/elasticsearch%E6%9C%AA%E6%8E%88%E6%9D%83%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
         elasticsearch未授权漏洞
       </a>
     </li>
@@ -690,14 +684,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_6" type="checkbox" id="__nav_3_1_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_6" type="checkbox" id="__nav_3_1_6" >
       
       
       
@@ -718,81 +710,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          zookeeper未授权漏洞
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/zookeeper/zookeeper%E6%9C%AA%E6%8E%88%E6%9D%83/" class="md-nav__link">
         zookeeper未授权漏洞
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#zookeeper" class="md-nav__link">
-    zookeeper
-  </a>
-  
-    <nav class="md-nav" aria-label="zookeeper">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    造成危害
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    如何寻找
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    如何修复
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    总结
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -837,7 +759,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../kibana/kibana%E6%9C%AA%E6%8E%88%E6%9D%83/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/kibana/kibana%E6%9C%AA%E6%8E%88%E6%9D%83/" class="md-nav__link">
         kibana未授权漏洞
       </a>
     </li>
@@ -917,7 +839,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%B3%A8%E5%85%A5/%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         注入简介
       </a>
     </li>
@@ -931,7 +853,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/csv%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/csv%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         CSV注入
       </a>
     </li>
@@ -997,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E5%9F%BA%E7%A1%80/SQL%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         SQL注入
       </a>
     </li>
@@ -1011,7 +933,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E5%AE%BD%E5%AD%97%E8%8A%82%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         宽字节注入
       </a>
     </li>
@@ -1025,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E7%9B%B2%E6%B3%A8/" class="md-nav__link">
         盲注
       </a>
     </li>
@@ -1072,7 +994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/%E7%BB%95%E8%BF%87/" class="md-nav__link">
         绕过
       </a>
     </li>
@@ -1086,7 +1008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/NOsql%E6%B3%A8%E5%85%A5/" class="md-nav__link">
         NOsql注入
       </a>
     </li>
@@ -1133,7 +1055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../SQL%E6%B3%A8%E5%85%A5/PDO/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/SQL%E6%B3%A8%E5%85%A5/PDO/" class="md-nav__link">
         PDO
       </a>
     </li>
@@ -1194,7 +1116,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E9%9D%B6%E5%9C%BA/" class="md-nav__link">
         文件上传常见防护绕过
       </a>
     </li>
@@ -1241,7 +1163,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90/%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90/%E5%B8%B8%E8%A7%81%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
         文件解析漏洞
       </a>
     </li>
@@ -1288,7 +1210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CSRF/csrf%E6%BC%8F%E6%B4%9E%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/CSRF/csrf%E6%BC%8F%E6%B4%9E%E5%9F%BA%E7%A1%80/" class="md-nav__link">
         CSRF漏洞
       </a>
     </li>
@@ -1302,7 +1224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../CSRF/cors%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
+      <a href="../../../WEB%E5%AE%89%E5%85%A8/CSRF/cors%E6%BC%8F%E6%B4%9E/" class="md-nav__link">
         CORF错误配置
       </a>
     </li>
@@ -1416,7 +1338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Adidns%E5%9F%BA%E7%A1%80/" class="md-nav__link">
         Adidns协议基础
       </a>
     </li>
@@ -1430,7 +1352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/pth/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/pth/" class="md-nav__link">
         PTH遇到了什么
       </a>
     </li>
@@ -1444,7 +1366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
         约束委派
       </a>
     </li>
@@ -1458,7 +1380,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E5%A7%94%E6%B4%BE/%E9%9D%9E%E7%BA%A6%E6%9D%9F%E6%80%A7%E5%A7%94%E6%B4%BE/" class="md-nav__link">
         非约束委派
       </a>
     </li>
@@ -1505,7 +1427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Netbios%E7%9A%84%E6%A2%B3%E7%90%86/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/Netbios%E7%9A%84%E6%A2%B3%E7%90%86/" class="md-nav__link">
         Netbios协议
       </a>
     </li>
@@ -1519,7 +1441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/wpad/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/wpad/" class="md-nav__link">
         wpad基础
       </a>
     </li>
@@ -1533,7 +1455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/wmic%E5%8E%9F%E7%90%86/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/wmic%E5%8E%9F%E7%90%86/" class="md-nav__link">
         wmic基础原理
       </a>
     </li>
@@ -1580,7 +1502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%BD%91%E7%BB%9C%E8%BD%AC%E5%8F%91/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%BD%91%E7%BB%9C%E8%BD%AC%E5%8F%91/" class="md-nav__link">
         内网流量转发
       </a>
     </li>
@@ -1686,7 +1608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E7%88%86%E7%A0%B4/kerberoast/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E7%88%86%E7%A0%B4/kerberoast/" class="md-nav__link">
         kerberoast
       </a>
     </li>
@@ -1700,7 +1622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E7%88%86%E7%A0%B4/as-reproast/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E7%88%86%E7%A0%B4/as-reproast/" class="md-nav__link">
         as-reproast
       </a>
     </li>
@@ -1754,7 +1676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB/wsus%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%8F%90%E6%9D%83/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB/wsus%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%8F%90%E6%9D%83/" class="md-nav__link">
         wsus中间人提权
       </a>
     </li>
@@ -1768,7 +1690,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%BC%E5%87%BA%E5%AF%86%E7%A0%81/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%BC%E5%87%BA%E5%AF%86%E7%A0%81/" class="md-nav__link">
         浏览器导出密码
       </a>
     </li>
@@ -1808,7 +1730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/Azure/Azure%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/Azure/Azure%E5%9F%BA%E7%A1%80/" class="md-nav__link">
         Azure基础
       </a>
     </li>
@@ -1822,7 +1744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/Azure/Azure%E9%A3%8E%E9%99%A9%E7%82%B9/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/Azure/Azure%E9%A3%8E%E9%99%A9%E7%82%B9/" class="md-nav__link">
         Azure风险点
       </a>
     </li>
@@ -1883,7 +1805,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/GPP%E7%BB%84%E7%AD%96%E7%95%A5%E6%8F%90%E6%9D%83/" class="md-nav__link">
         GPP组策略提权
       </a>
     </li>
@@ -1897,7 +1819,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/Hivenightmare/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%8F%90%E6%9D%83%E6%89%8B%E6%B3%95/Hivenightmare/" class="md-nav__link">
         HiveNightmare
       </a>
     </li>
@@ -1944,7 +1866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/%E5%9F%9F%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/%E5%9F%9F%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/" class="md-nav__link">
         域权限维持
       </a>
     </li>
@@ -1958,7 +1880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/Admin%20SDHolder/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/Admin%20SDHolder/" class="md-nav__link">
         Admin SD_holder
       </a>
     </li>
@@ -1972,7 +1894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/DCshadow/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/DCshadow/" class="md-nav__link">
         DCshadow
       </a>
     </li>
@@ -1986,7 +1908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../域安全/攻击手法/权限维持/DCsync.md" class="md-nav__link">
+      <a href="../../../域安全/攻击手法/权限维持/DCsync.md" class="md-nav__link">
         DCsync
       </a>
     </li>
@@ -2000,7 +1922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/ShadowCredentials/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/ShadowCredentials/" class="md-nav__link">
         ShadowCredentials
       </a>
     </li>
@@ -2014,7 +1936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/SID_history/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/SID_history/" class="md-nav__link">
         SID_history
       </a>
     </li>
@@ -2028,7 +1950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/%E5%85%B3%E9%94%AEACLs/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9F%BA%E7%A1%80%E5%8D%8F%E8%AE%AE/%E5%85%B3%E9%94%AEACLs/" class="md-nav__link">
         关键ACL设置
       </a>
     </li>
@@ -2042,7 +1964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E4%BC%AA%E9%80%A0/%E9%82%AE%E4%BB%B6%E4%BC%AA%E9%80%A0/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%88%98%E6%9C%AF/%E4%BC%AA%E9%80%A0/%E9%82%AE%E4%BB%B6%E4%BC%AA%E9%80%A0/" class="md-nav__link">
         邮件伪造
       </a>
     </li>
@@ -2115,7 +2037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/nbtscan/" class="md-nav__link">
+      <a href="../../../%E5%9F%9F%E5%AE%89%E5%85%A8/%E6%94%BB%E5%87%BB%E6%89%8B%E6%B3%95/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/nbtscan/" class="md-nav__link">
         NBTSCAN的使用
       </a>
     </li>
@@ -2203,7 +2125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC1/" class="md-nav__link">
         DC1
       </a>
     </li>
@@ -2217,7 +2139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC2/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC2/" class="md-nav__link">
         DC2
       </a>
     </li>
@@ -2231,7 +2153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC3/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC3/" class="md-nav__link">
         DC3
       </a>
     </li>
@@ -2245,7 +2167,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC4/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC4/" class="md-nav__link">
         DC4
       </a>
     </li>
@@ -2259,7 +2181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC6/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC6/" class="md-nav__link">
         DC6
       </a>
     </li>
@@ -2273,7 +2195,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC7/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC7/" class="md-nav__link">
         DC7
       </a>
     </li>
@@ -2287,7 +2209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/DC8/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/DC8/" class="md-nav__link">
         DC8
       </a>
     </li>
@@ -2301,7 +2223,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/Djinn/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/Djinn/" class="md-nav__link">
         Djinn
       </a>
     </li>
@@ -2315,7 +2237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/HA-wordy/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/HA-wordy/" class="md-nav__link">
         HA-wordy
       </a>
     </li>
@@ -2329,7 +2251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/hackme/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/hackme/" class="md-nav__link">
         hackme
       </a>
     </li>
@@ -2343,7 +2265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/inplainsight/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/inplainsight/" class="md-nav__link">
         inplainsight
       </a>
     </li>
@@ -2357,7 +2279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/Me_and_My_GirlFriend/" class="md-nav__link">
         Me_and_My_GirlFriend
       </a>
     </li>
@@ -2371,7 +2293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/minua/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/minua/" class="md-nav__link">
         minua
       </a>
     </li>
@@ -2385,7 +2307,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/MrRobot/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/MrRobot/" class="md-nav__link">
         MrRobot
       </a>
     </li>
@@ -2399,7 +2321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/OS-HackNotes-2.1/" class="md-nav__link">
         OS-HackNotes-2.1
       </a>
     </li>
@@ -2413,7 +2335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/sunset_1/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/sunset_1/" class="md-nav__link">
         sunset_1
       </a>
     </li>
@@ -2427,7 +2349,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/sunset_nightfall/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/sunset_nightfall/" class="md-nav__link">
         sunset_nightfall
       </a>
     </li>
@@ -2441,7 +2363,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E9%9D%B6%E6%9C%BA/unknowndevice6/" class="md-nav__link">
+      <a href="../../../%E9%9D%B6%E6%9C%BA/unknowndevice6/" class="md-nav__link">
         unknowndevice6
       </a>
     </li>
@@ -2548,7 +2470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-nav__link">
+      <a href="../../%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/" class="md-nav__link">
         OSWE 介绍
       </a>
     </li>
@@ -2562,7 +2484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E4%B8%AD%E7%AF%87/" class="md-nav__link">
+      <a href="../../%E8%80%83%E8%AF%81/OSWE/OSWE%E4%B8%AD%E7%AF%87/" class="md-nav__link">
         OSWE 考试方法
       </a>
     </li>
@@ -2576,7 +2498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/" class="md-nav__link">
+      <a href="../../%E8%80%83%E8%AF%81/OSWE/OSWE%E5%B0%BE%E7%AF%87/" class="md-nav__link">
         OSWE 考试方法2
       </a>
     </li>
@@ -2656,7 +2578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%90%E8%AF%BB%E4%B9%A6%E3%80%91%E5%A5%BD%E5%A5%BD%E6%80%9D%E8%80%83/" class="md-nav__link">
+      <a href="../%E3%80%90%E8%AF%BB%E4%B9%A6%E3%80%91%E5%A5%BD%E5%A5%BD%E6%80%9D%E8%80%83/" class="md-nav__link">
         好好思考
       </a>
     </li>
@@ -2670,7 +2592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../XSS in PDF.md" class="md-nav__link">
+      <a href="../../../XSS in PDF.md" class="md-nav__link">
         xss pdf test
       </a>
     </li>
@@ -2758,7 +2680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E5%AE%89%E5%85%A8%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%97%A0%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF/" class="md-nav__link">
+      <a href="../../../%E5%AE%89%E5%85%A8%E5%BB%BA%E8%AE%BE/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E6%97%A0%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF/" class="md-nav__link">
         无密码技术
       </a>
     </li>
@@ -2803,43 +2725,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#zookeeper" class="md-nav__link">
-    zookeeper
-  </a>
-  
-    <nav class="md-nav" aria-label="zookeeper">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
-    造成危害
+    能造成什么安全问题
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    如何寻找
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    如何修复
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    总结
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -2856,32 +2744,10 @@
               
                 
                 
-                  <h1>zookeeper未授权漏洞</h1>
+                  <h1>XSS in PDF</h1>
                 
-                <h2 id="zookeeper">zookeeper</h2>
-<p>zookeeper是分布式应用程序协调服务，为分布式应用提供一致性服务的软件。提供的功能包括 配置维护 域名服务 分布式同步 组服务等。 </p>
-<p>zookeeper是分布式协调服务，可以<strong>自分布式系统当中共享配置，协调锁资源，提供命名服务</strong>。</p>
-<p>zookeeper的场景是 读多写少  ，其中存储的数据是 组件的配置文件，存储于Znode当中，每一个Znode当中存在  </p>
-<p>data 数据  数据当中存储的是该组件的配置信息 
-acl 访问表
-stat 状态
-child 子节点 </p>
-<p>Zookeeper防止自己被挂所以自己使用了一主动从的结构。更新数据的时候首先更新主节点，然后同步从节点。读取数据的时候直接读取任意从节点。 </p>
-<p>意思是能够通过zookeeper管理到其他的分布式组件 ？ </p>
-<p>一句话概括 </p>
-<p>业务一般将组件的配置信息存储在zookeeper当中，各个组件通过访问zookeeper当中的节点获取配置从而被管理。 </p>
-<h3 id="_1">造成危害</h3>
-<p>能够通过未授权获取到大量的系统的敏感信息，系统名称，java环境</p>
-<p>配置信息等。一也可以对这些配置文件进行删除修改对组件的可用性造成影响。</p>
-<h3 id="_2">如何寻找</h3>
-<p>简单的测试步骤，寻找开启的2182端口。</p>
-<p>往2182端口当中发送数据 ，看看回显 </p>
-<p><img alt="20211101001042" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/20211101001042.png" /></p>
-<h3 id="_3">如何修复</h3>
-<p>1、zookeeper服务器开启ACL进行访问 </p>
-<p>2、设置防火墙限制IP访问 </p>
-<h3 id="_4">总结</h3>
-<p>zookeeper是管理大量组件的组件。服务器组件从zookeeper的节点当中获取配置数据</p>
+                <h3 id="_1">能造成什么安全问题</h3>
+<p>只能造成弹框的问题<br /><img alt="image.png" src="https://cdn.nlark.com/yuque/0/2023/png/12874414/1687332456992-a507e85c-0262-4a6c-b23e-f0d71d06ee05.png#averageHue=%23f6f4f2&amp;clientId=u8ed5b989-6bd5-4&amp;from=paste&amp;height=348&amp;id=u74d5e603&amp;originHeight=348&amp;originWidth=676&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=43615&amp;status=done&amp;style=none&amp;taskId=u63c51d16-dc6a-4077-a73a-b318a36117e&amp;title=&amp;width=676" /></p>
                 
               
               
@@ -2902,41 +2768,6 @@ child 子节点 </p>
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../../elasticsearch/elasticsearch%E6%9C%AA%E6%8E%88%E6%9D%83%E6%BC%8F%E6%B4%9E/" class="md-footer__link md-footer__link--prev" aria-label="Previous: elasticsearch未授权漏洞" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              elasticsearch未授权漏洞
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../../kibana/kibana%E6%9C%AA%E6%8E%88%E6%9D%83/" class="md-footer__link md-footer__link--next" aria-label="Next: kibana未授权漏洞" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              kibana未授权漏洞
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -2959,10 +2790,10 @@ child 子节点 </p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.f89c2efe.min.js"></script>
       
     
   </body>
