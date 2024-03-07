@@ -286,11 +286,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E3%80%90%E8%AF%BB%E4%B9%A6%E3%80%91%E5%A5%BD%E5%A5%BD%E6%80%9D%E8%80%83/</loc>
-         <lastmod>2024-03-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E7%BB%8F%E9%AA%8C%26%26%E6%84%9F%E6%82%9F_index/</loc>
          <lastmod>2024-03-07</lastmod>
          <changefreq>daily</changefreq>
@@ -312,6 +307,11 @@
     </url>
     <url>
          <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%80%83%E8%AF%81/OSWE/OSWE%E5%BC%80%E7%AF%87/</loc>
+         <lastmod>2024-03-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://startr4ck.top/%E7%BB%8F%E9%AA%8C%26%26%E5%88%86%E4%BA%AB/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%90%E8%AF%BB%E4%B9%A6%E3%80%91%E5%A5%BD%E5%A5%BD%E6%80%9D%E8%80%83/</loc>
          <lastmod>2024-03-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
