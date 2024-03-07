@@ -718,6 +718,128 @@
 
             
           
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_4" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_4">
+          Shiro
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Shiro" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Shiro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Shiro%E7%AE%80%E4%BB%8B/" class="md-nav__link">
+        Shiro简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E3%80%90RCE%E3%80%91Shiro/" class="md-nav__link">
+        ShiroRCE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_5" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_5">
+          Redis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Redis" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Redis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
+        REDIS未授权利用
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/" class="md-nav__link">
+        REDIS主从复制RCE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -3122,10 +3244,10 @@
 <li>授权决策断言表示如果用户被授权使用该服务，或者由于密码失败或缺乏对服务的权限，身份提供商拒绝了他们的请求。</li>
 </ul>
 <p>saml最主要的作用是 为了 SSO 单点登录。
-<img alt="image.png" src="https://cdn.nlark.com/yuque/0/2023/png/12874414/1685694715518-fd2a5dd3-2894-44a4-9df1-41bf7f5db207.png#averageHue=%23f4f4f4&amp;clientId=ud5a41ef7-15c4-4&amp;from=paste&amp;height=491&amp;id=u89dfee4b&amp;originHeight=491&amp;originWidth=748&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=92716&amp;status=done&amp;style=none&amp;taskId=ue3d6b513-fcfb-415b-aa9d-a2201465b77&amp;title=&amp;width=748" />
+<img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1685694715518-fd2a5dd3-2894-44a4-9df1-41bf7f5db207.png" />
 saml进行传输，分为saml_request和 saml_response<br />
 在IDp和 sp之间进行传输的时候需要进行确定好两者之间的传输格式 saml Binding，其分为HTTP Redirect Binding ，常见的 
-<img alt="image.png" src="https://cdn.nlark.com/yuque/0/2023/png/12874414/1685695709305-da3ac2c5-296e-4a9d-9b17-237ada595cc0.png#averageHue=%23f7f7f7&amp;clientId=ud5a41ef7-15c4-4&amp;from=paste&amp;height=634&amp;id=u32f9f5a5&amp;originHeight=634&amp;originWidth=791&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=106825&amp;status=done&amp;style=none&amp;taskId=u0b98ebe7-b095-4c58-b574-bcdee86ba1b&amp;title=&amp;width=791" />
+<img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1685695709305-da3ac2c5-296e-4a9d-9b17-237ada595cc0.png" />
 <strong> HTTP POST Binding  </strong>
 通过Form表单以POST请求的方式将SAML Request发到SP，IdP通过立即提交的Form表单以POST请求的方式将SAML Response 发送到 SP</p>
 <h4 id="saml_1">saml常见的部署架构</h4>

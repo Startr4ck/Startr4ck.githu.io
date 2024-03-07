@@ -873,6 +873,128 @@
 
             
           
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_4" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_4">
+          Shiro
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Shiro" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Shiro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Shiro%E7%AE%80%E4%BB%8B/" class="md-nav__link">
+        Shiro简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E3%80%90RCE%E3%80%91Shiro/" class="md-nav__link">
+        ShiroRCE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_5" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_5">
+          Redis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Redis" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Redis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
+        REDIS未授权利用
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/" class="md-nav__link">
+        REDIS主从复制RCE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -3436,7 +3558,7 @@
 <li>支持分析，例如监控、日志记录和跟踪 </li>
 <li>避免攻击  </li>
 </ul>
-<h3 id="apisix">APISIX 的框架 <img alt="image.png" src="https://cdn.nlark.com/yuque/0/2024/png/12874414/1704350254035-241e16d0-8c01-47d9-8658-76d335ed0958.png#averageHue=%23c1e0bb&amp;clientId=u06033c6c-0968-4&amp;from=paste&amp;height=385&amp;id=u3d5348b4&amp;originHeight=402&amp;originWidth=966&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=91243&amp;status=done&amp;style=none&amp;taskId=u491cbf17-7dd1-47ef-aa88-a675e8f4199&amp;title=&amp;width=925" /></h3>
+<h3 id="apisix">APISIX 的框架 <img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1704350254035-241e16d0-8c01-47d9-8658-76d335ed0958.png" /></h3>
 <p>其利用到的技术栈是 NGINX+ ngx_lua的技术基础，充分利用LuaJIT提供的性能。 
 分为两个部分  </p>
 <ol>
@@ -3444,9 +3566,9 @@
 <li>功能丰富的各种内置插件：可观测，安全，流量控制等 </li>
 </ol>
 <p>其中插件的主要流程是 
-<img alt="image.png" src="https://cdn.nlark.com/yuque/0/2024/png/12874414/1704350516303-6b6f0a18-c537-4ebf-8ab6-45598a57504a.png#averageHue=%23fbfbfb&amp;clientId=u06033c6c-0968-4&amp;from=paste&amp;height=571&amp;id=u1928f16b&amp;originHeight=571&amp;originWidth=963&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=129912&amp;status=done&amp;style=none&amp;taskId=u8da29613-607e-4133-958e-ea60901ff3e&amp;title=&amp;width=963" />
+<img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1704350516303-6b6f0a18-c537-4ebf-8ab6-45598a57504a.png" />
 插件的内部结构 
-<img alt="image.png" src="https://cdn.nlark.com/yuque/0/2024/png/12874414/1704350557226-f5b00153-20e6-42f0-ad2e-c2640fead088.png#averageHue=%23f8f8f8&amp;clientId=u06033c6c-0968-4&amp;from=paste&amp;height=716&amp;id=u8672df98&amp;originHeight=716&amp;originWidth=498&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=92549&amp;status=done&amp;style=none&amp;taskId=ucf847223-86e2-463e-9990-3fd07e8160e&amp;title=&amp;width=498" /></p>
+<img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1704350557226-f5b00153-20e6-42f0-ad2e-c2640fead088.png" /></p>
 <h3 id="apisix_1">APIsix的基础操作</h3>
 <ol>
 <li>创建上游</li>
@@ -3500,7 +3622,7 @@
 script是lua代码。</p>
 <h4 id="service">Service</h4>
 <p>Service 是某类API的抽象（某类Route的抽象），通常与上游服务抽象是意义对应的，Route和Service之间是N:1的关系。
-<img alt="image.png" src="https://cdn.nlark.com/yuque/0/2024/png/12874414/1704354359562-72977ecf-574b-4d61-94b6-d631e7cadc21.png#averageHue=%237c7774&amp;clientId=u80b522fb-5544-4&amp;from=paste&amp;height=606&amp;id=u90d61f61&amp;originHeight=606&amp;originWidth=596&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=84032&amp;status=done&amp;style=none&amp;taskId=uc2d92386-bf12-4611-bc7b-4dceb2d68e7&amp;title=&amp;width=596" /></p>
+<img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1704354359562-72977ecf-574b-4d61-94b6-d631e7cadc21.png" /></p>
 <p>不同 Route 规则同时绑定到一个 Service 上，这些 Route 将具有相同的上游和插件配置，减少冗余配置。</p>
 <h4 id="apisix-dashboard">APISIX DashBoard</h4>
 <p>ApiSix 有管理台页面 APISIX DashBoard，其默认的端口是 9000，默认的账户密码是 admin/admin，登录其中同样可以设置其中的脚本 

@@ -180,6 +180,8 @@
         
   
   
+    
+  
 
 
   
@@ -196,7 +198,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../APISIX%20%E7%AE%80%E4%BB%8B/" class="md-tabs__link">
+      <a href="../APISIX%20%E7%AE%80%E4%BB%8B/" class="md-tabs__link md-tabs__link--active">
         WEB安全
       </a>
     </li>
@@ -387,12 +389,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -413,12 +417,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" data-md-state="indeterminate" type="checkbox" id="__nav_3_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
       
       
       
@@ -619,6 +625,275 @@
     <li class="md-nav__item">
       <a href="../CVE-2023-42820%20jumpserver%E6%9C%80%E6%96%B0pre-auth/" class="md-nav__link">
         CVE-2023-42820
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_4" type="checkbox" id="__nav_3_1_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_4">
+          Shiro
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Shiro" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          Shiro
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Shiro简介
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Shiro简介
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#shiro" class="md-nav__link">
+    shiro基础
+  </a>
+  
+    <nav class="md-nav" aria-label="shiro基础">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#securitymanager" class="md-nav__link">
+    SecurityManager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shiro_1" class="md-nav__link">
+    Shiro的登录授权过程
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shiro_2" class="md-nav__link">
+    shiro漏洞
+  </a>
+  
+    <nav class="md-nav" aria-label="shiro漏洞">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cve-2010-3863" class="md-nav__link">
+    CVE-2010-3863
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cve-2014-0074shiro-460" class="md-nav__link">
+    【空用户访问】CVE-2014-0074/Shiro-460
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rcecve-2016-4437shiro-550" class="md-nav__link">
+    【RCE】CVE-2016-4437/Shiro-550
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cve-2016-6802" class="md-nav__link">
+    【绕过访问权限】CVE-2016-6802
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cve-2016-6802_1" class="md-nav__link">
+    【针对密码的填充攻击】CVE-2016-6802
+  </a>
+  
+    <nav class="md-nav" aria-label="【针对密码的填充攻击】CVE-2016-6802">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#padding-oracle" class="md-nav__link">
+    padding Oracle
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rcecve-2019-12422-shiro-721" class="md-nav__link">
+    【RCE】CVE-2019-12422 Shiro-721
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cve-2020-1957-shiro-682" class="md-nav__link">
+    【绕过访问权限】CVE-2020-1957  Shiro-682
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cve-2020-11989-shiro-782" class="md-nav__link">
+    【绕过访问权限】CVE-2020-11989 Shiro-782
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cve-2020-13933" class="md-nav__link">
+    【绕过访问权限】CVE-2020-13933
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E3%80%90RCE%E3%80%91Shiro/" class="md-nav__link">
+        ShiroRCE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_5" data-md-state="indeterminate" type="checkbox" id="__nav_3_1_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_5">
+          Redis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Redis" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_5">
+          <span class="md-nav__icon md-icon"></span>
+          Redis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E6%9C%AA%E6%8E%88%E6%9D%83%E5%88%A9%E7%94%A8/" class="md-nav__link">
+        REDIS未授权利用
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/redis/redis%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E5%88%A9%E7%94%A8/" class="md-nav__link">
+        REDIS主从复制RCE
       </a>
     </li>
   
@@ -3106,7 +3381,7 @@ shiro的漏洞主要有两种分类  </p>
 <li>authc：登录过滤器 </li>
 </ul>
 <p>在Java当中，安全管理器的主要作用是 限制应用程序对系统资源的访问，以保护系统免受恶意代码的攻击。
-<img alt="image.png" src="https://cdn.nlark.com/yuque/0/2024/png/12874414/1704972520152-ec14bc3d-5f4b-4560-ba4b-505b88c9d4da.png#averageHue=%23f1ead7&amp;clientId=uf207ab6b-b604-4&amp;from=paste&amp;height=418&amp;id=uefb9819c&amp;originHeight=418&amp;originWidth=472&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=28477&amp;status=done&amp;style=none&amp;taskId=uc41e89ed-8906-4d15-a8fd-1c045af2cc7&amp;title=&amp;width=472" />
+<img alt="image.png" src="https://picsfor.oss-cn-shenzhen.aliyuncs.com/blogs/imgs/1704972520152-ec14bc3d-5f4b-4560-ba4b-505b88c9d4da.png" />
 创建令牌，执行登录 </p>
 <pre><code class="language-lua">//使用账户名和密码换取到 token
 UsernamePasswordToken token = new UsernamePasswordToken(username, password);
@@ -3209,6 +3484,41 @@ adRealm.searchBase = &quot;CN=Configuration,DC=abc,DC=internal&quot;
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../CVE-2023-42820%20jumpserver%E6%9C%80%E6%96%B0pre-auth/" class="md-footer__link md-footer__link--prev" aria-label="Previous: CVE-2023-42820" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              CVE-2023-42820
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../%E3%80%90RCE%E3%80%91Shiro/" class="md-footer__link md-footer__link--next" aria-label="Next: ShiroRCE" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              ShiroRCE
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
